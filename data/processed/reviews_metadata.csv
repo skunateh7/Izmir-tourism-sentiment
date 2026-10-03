@@ -1,0 +1,599 @@
+Review_ID,Attraction_Name,Attraction_Category,Star_Rating,Rating_Label,Final_Sentiment,Manual_Override,Word_Count,Language
+1,Alsancak,Beach/Coastal,1,Negative,Negative,0,22,en
+2,Alsancak,Beach/Coastal,5,Positive,Positive,0,19,en
+3,Alsancak,Beach/Coastal,5,Positive,Positive,0,52,en
+4,Alsancak,Beach/Coastal,4,Positive,Positive,0,82,en
+5,Alsancak,Beach/Coastal,5,Positive,Positive,0,41,en
+6,Alsancak,Beach/Coastal,4,Positive,Positive,0,57,en
+7,Alsancak,Beach/Coastal,4,Positive,Positive,0,26,en
+8,Alsancak,Beach/Coastal,5,Positive,Positive,0,30,en
+9,Alsancak,Beach/Coastal,5,Positive,Positive,0,62,en
+10,Alsancak,Beach/Coastal,5,Positive,Positive,0,56,en
+11,Alsancak,Beach/Coastal,4,Positive,Positive,0,76,en
+12,Alsancak,Beach/Coastal,2,Negative,Negative,0,41,en
+13,Alsancak,Beach/Coastal,3,Neutral,Neutral,0,29,en
+14,Alsancak,Beach/Coastal,3,Neutral,Neutral,0,41,en
+15,Alsancak,Beach/Coastal,3,Neutral,Neutral,0,58,en
+16,Alsancak,Beach/Coastal,3,Neutral,Neutral,0,29,en
+17,Alsancak,Beach/Coastal,3,Neutral,Neutral,0,49,en
+18,Alsancak,Beach/Coastal,3,Neutral,Neutral,0,29,en
+19,Alsancak,Beach/Coastal,3,Neutral,Neutral,0,61,en
+20,Alsancak,Beach/Coastal,3,Neutral,Neutral,0,41,en
+21,Izmir Wildlife Park,Nature,1,Negative,Negative,0,186,en
+22,Izmir Wildlife Park,Nature,1,Negative,Negative,0,42,en
+23,Izmir Wildlife Park,Nature,1,Negative,Negative,0,74,en
+24,Izmir Wildlife Park,Nature,2,Negative,Negative,0,79,en
+25,Izmir Wildlife Park,Nature,2,Negative,Negative,0,97,en
+26,Izmir Wildlife Park,Nature,3,Neutral,Neutral,0,21,en
+27,Izmir Wildlife Park,Nature,3,Neutral,Neutral,0,89,en
+28,Izmir Wildlife Park,Nature,3,Neutral,Neutral,0,68,en
+29,Izmir Wildlife Park,Nature,3,Neutral,Neutral,0,41,en
+30,Izmir Wildlife Park,Nature,3,Neutral,Neutral,0,119,en
+31,Izmir Wildlife Park,Nature,3,Neutral,Neutral,0,44,en
+32,Izmir Wildlife Park,Nature,3,Neutral,Neutral,0,84,en
+33,Izmir Wildlife Park,Nature,3,Neutral,Neutral,0,48,en
+34,Izmir Wildlife Park,Nature,4,Positive,Positive,0,52,en
+35,Izmir Wildlife Park,Nature,4,Positive,Positive,0,125,en
+36,Izmir Wildlife Park,Nature,4,Positive,Positive,0,68,en
+37,Izmir Wildlife Park,Nature,4,Positive,Positive,0,112,en
+38,Izmir Wildlife Park,Nature,4,Positive,Positive,0,29,en
+39,Izmir Wildlife Park,Nature,4,Positive,Positive,0,26,en
+40,Izmir Wildlife Park,Nature,5,Positive,Positive,0,35,en
+41,Izmir Wildlife Park,Nature,5,Positive,Positive,0,73,en
+42,Izmir Wildlife Park,Nature,5,Positive,Positive,0,31,en
+43,Izmir Wildlife Park,Nature,5,Positive,Positive,0,84,en
+44,Izmir Wildlife Park,Nature,5,Positive,Positive,0,35,en
+45,Izmir Wildlife Park,Nature,5,Positive,Positive,0,18,en
+46,Izmir Wildlife Park,Nature,5,Positive,Positive,0,301,en
+47,Izmir Wildlife Park,Nature,5,Positive,Positive,0,48,en
+48,Izmir Wildlife Park,Nature,5,Positive,Positive,0,32,en
+49,Izmir Wildlife Park,Nature,5,Positive,Positive,0,23,en
+50,Izmir Wildlife Park,Nature,5,Positive,Positive,0,206,en
+51,Izmir Wildlife Park,Nature,5,Positive,Positive,0,27,en
+52,Izmir Wildlife Park,Nature,5,Positive,Positive,0,26,en
+53,Izmir Wildlife Park,Nature,5,Positive,Positive,0,18,en
+54,Izmir Wildlife Park,Nature,5,Positive,Positive,0,168,en
+55,Izmir Wildlife Park,Nature,5,Positive,Positive,0,141,en
+56,Izmir Wildlife Park,Nature,5,Positive,Positive,0,70,en
+57,Izmir Wildlife Park,Nature,5,Positive,Positive,0,90,en
+58,Izmir Wildlife Park,Nature,5,Positive,Positive,0,20,en
+59,Izmir Wildlife Park,Nature,5,Positive,Positive,0,23,en
+60,Izmir Wildlife Park,Nature,5,Positive,Positive,0,28,en
+61,Izmir Saat Kulesi (Clock Tower),History/Culture,1,Negative,Negative,0,46,en
+62,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,51,en
+63,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,30,en
+64,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,23,en
+65,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,22,en
+66,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,29,en
+67,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,45,en
+68,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,31,en
+69,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,30,en
+70,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,48,en
+71,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,Negative,0,36,en
+72,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,108,en
+73,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,31,en
+74,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,55,en
+75,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,30,en
+76,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,34,en
+77,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,44,en
+78,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,36,en
+79,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,19,en
+80,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,36,en
+81,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,58,en
+82,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,27,en
+83,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,45,en
+84,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,36,en
+85,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,21,en
+86,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,Neutral,0,44,en
+87,Izmir Saat Kulesi (Clock Tower),History/Culture,4,Positive,Positive,0,47,en
+88,Izmir Saat Kulesi (Clock Tower),History/Culture,4,Positive,Positive,0,32,en
+89,Izmir Saat Kulesi (Clock Tower),History/Culture,4,Positive,Positive,0,32,en
+90,Izmir Saat Kulesi (Clock Tower),History/Culture,4,Positive,Positive,0,36,en
+91,Izmir Saat Kulesi (Clock Tower),History/Culture,4,Positive,Positive,0,39,en
+92,Izmir Saat Kulesi (Clock Tower),History/Culture,4,Positive,Positive,0,29,en
+93,Izmir Saat Kulesi (Clock Tower),History/Culture,4,Positive,Positive,0,39,en
+94,Izmir Saat Kulesi (Clock Tower),History/Culture,4,Positive,Positive,0,83,en
+95,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,90,en
+96,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,66,en
+97,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,43,en
+98,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,25,en
+99,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,63,en
+100,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,62,en
+101,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,72,en
+102,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,32,en
+103,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,19,en
+104,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,35,en
+105,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,41,en
+106,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,35,en
+107,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,31,en
+108,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,24,en
+109,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,73,en
+110,Izmir Saat Kulesi (Clock Tower),History/Culture,5,Positive,Positive,0,42,en
+111,Punt Ancient Pub,Nightlife,3,Neutral,Neutral,0,17,en
+112,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,15,en
+113,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,6,en
+114,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,17,en
+115,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,14,en
+116,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,10,en
+117,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,22,en
+118,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,7,en
+119,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,29,en
+120,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,17,en
+121,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,14,en
+122,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,20,en
+123,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,16,en
+124,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,28,en
+125,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,15,en
+126,Punt Ancient Pub,Nightlife,5,Positive,Positive,0,25,en
+127,Key Hotel,Family,1,Negative,Negative,0,229,en
+128,Key Hotel,Family,1,Negative,Negative,0,340,en
+129,Key Hotel,Family,1,Negative,Negative,0,125,en
+130,Key Hotel,Family,1,Negative,Negative,0,341,en
+131,Key Hotel,Family,2,Negative,Negative,0,123,en
+132,Key Hotel,Family,2,Negative,Negative,0,59,en
+133,Key Hotel,Family,2,Negative,Negative,0,85,en
+134,Key Hotel,Family,3,Neutral,Neutral,0,76,en
+135,Key Hotel,Family,3,Neutral,Neutral,0,89,en
+136,Key Hotel,Family,3,Neutral,Neutral,0,35,en
+137,Key Hotel,Family,3,Neutral,Neutral,0,78,en
+138,Key Hotel,Family,3,Neutral,Neutral,0,148,en
+139,Key Hotel,Family,4,Positive,Positive,0,46,en
+140,Key Hotel,Family,4,Positive,Positive,0,81,en
+141,Key Hotel,Family,4,Positive,Positive,0,35,en
+142,Key Hotel,Family,4,Positive,Positive,0,48,en
+143,Key Hotel,Family,4,Positive,Positive,0,85,en
+144,Key Hotel,Family,4,Positive,Positive,0,83,en
+145,Key Hotel,Family,4,Positive,Positive,0,108,en
+146,Key Hotel,Family,4,Positive,Positive,0,65,en
+147,Key Hotel,Family,4,Positive,Positive,0,66,en
+148,Key Hotel,Family,4,Positive,Positive,0,127,en
+149,Key Hotel,Family,4,Positive,Positive,0,199,en
+150,Key Hotel,Family,5,Positive,Positive,0,56,en
+151,Key Hotel,Family,5,Positive,Positive,0,162,en
+152,Key Hotel,Family,5,Positive,Positive,0,51,en
+153,Key Hotel,Family,5,Positive,Positive,0,33,en
+154,Key Hotel,Family,5,Positive,Positive,0,79,en
+155,Key Hotel,Family,5,Positive,Positive,0,68,en
+156,Key Hotel,Family,5,Positive,Positive,0,15,en
+157,Key Hotel,Family,5,Positive,Positive,0,39,en
+158,Key Hotel,Family,5,Positive,Positive,0,38,en
+159,Key Hotel,Family,5,Positive,Positive,0,79,en
+160,Key Hotel,Family,5,Positive,Positive,0,28,en
+161,Key Hotel,Family,5,Positive,Positive,0,25,en
+162,Key Hotel,Family,5,Positive,Positive,0,20,en
+163,Key Hotel,Family,5,Positive,Positive,0,23,en
+164,Key Hotel,Family,5,Positive,Positive,0,55,en
+165,Key Hotel,Family,5,Positive,Positive,0,51,en
+166,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,85,en
+167,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,121,en
+168,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,24,en
+169,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,42,en
+170,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,75,en
+171,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,99,en
+172,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,57,en
+173,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,69,en
+174,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,73,en
+175,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,189,en
+176,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,154,en
+177,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,40,en
+178,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,221,en
+179,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,53,en
+180,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,46,en
+181,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,84,en
+182,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,89,en
+183,Tavaci Recep Usta,Food/Gastronomy,1,Negative,Negative,0,68,en
+184,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,51,en
+185,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,56,en
+186,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,120,en
+187,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,61,en
+188,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,124,en
+189,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,48,en
+190,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,111,en
+191,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,41,en
+192,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,84,en
+193,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,93,en
+194,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,37,en
+195,Tavaci Recep Usta,Food/Gastronomy,2,Negative,Negative,0,51,en
+196,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,33,en
+197,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,38,en
+198,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,161,en
+199,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,121,en
+200,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,25,en
+201,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,48,en
+202,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,82,en
+203,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,21,en
+204,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,21,en
+205,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,43,en
+206,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,113,en
+207,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,27,en
+208,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,52,en
+209,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,68,en
+210,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,53,en
+211,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,65,en
+212,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,39,en
+213,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,25,en
+214,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,20,en
+215,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,32,en
+216,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,Neutral,0,59,en
+217,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,31,en
+218,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,66,en
+219,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Neutral,1,55,en
+220,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,43,en
+221,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,57,en
+222,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,32,en
+223,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,57,en
+224,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,128,en
+225,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,15,en
+226,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,23,en
+227,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,71,en
+228,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,46,en
+229,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,122,en
+230,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,97,en
+231,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,29,en
+232,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,121,en
+233,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,41,en
+234,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,23,en
+235,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,24,en
+236,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,25,en
+237,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,46,en
+238,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,131,en
+239,Tavaci Recep Usta,Food/Gastronomy,4,Positive,Positive,0,60,en
+240,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,15,en
+241,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,32,en
+242,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,95,en
+243,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,46,en
+244,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,41,en
+245,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,112,en
+246,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,35,en
+247,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,22,en
+248,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,39,en
+249,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,22,en
+250,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,34,en
+251,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,28,en
+252,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,26,en
+253,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,115,en
+254,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,49,en
+255,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,148,en
+256,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,46,en
+257,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,21,en
+258,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,23,en
+259,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,93,en
+260,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,25,en
+261,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,20,en
+262,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,41,en
+263,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,62,en
+264,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,87,en
+265,Tavaci Recep Usta,Food/Gastronomy,5,Positive,Positive,0,27,en
+266,Ephesus,History/Culture,3,Neutral,Neutral,0,101,en
+267,Ephesus,History/Culture,3,Neutral,Neutral,0,80,en
+268,Ephesus,History/Culture,3,Neutral,Neutral,0,108,en
+269,Ephesus,History/Culture,4,Positive,Positive,0,38,en
+270,Ephesus,History/Culture,4,Positive,Positive,0,31,en
+271,Ephesus,History/Culture,4,Positive,Positive,0,130,en
+272,Ephesus,History/Culture,4,Positive,Positive,0,28,en
+273,Ephesus,History/Culture,4,Positive,Positive,0,38,en
+274,Ephesus,History/Culture,4,Positive,Positive,0,29,en
+275,Ephesus,History/Culture,4,Positive,Positive,0,75,en
+276,Ephesus,History/Culture,4,Positive,Positive,0,64,en
+277,Ephesus,History/Culture,4,Positive,Positive,0,27,en
+278,Ephesus,History/Culture,4,Positive,Positive,0,53,en
+279,Ephesus,History/Culture,4,Positive,Positive,0,29,en
+280,Ephesus,History/Culture,4,Positive,Positive,0,29,en
+281,Ephesus,History/Culture,4,Positive,Positive,0,28,en
+282,Ephesus,History/Culture,4,Positive,Positive,0,117,en
+283,Ephesus,History/Culture,4,Positive,Positive,0,82,en
+284,Ephesus,History/Culture,4,Positive,Positive,0,53,en
+285,Ephesus,History/Culture,4,Positive,Positive,0,13,en
+286,Ephesus,History/Culture,4,Positive,Positive,0,52,en
+287,Ephesus,History/Culture,4,Positive,Positive,0,91,en
+288,Ephesus,History/Culture,5,Positive,Positive,0,87,en
+289,Ephesus,History/Culture,5,Positive,Positive,0,92,en
+290,Ephesus,History/Culture,5,Positive,Positive,0,25,en
+291,Ephesus,History/Culture,5,Positive,Positive,0,57,en
+292,Ephesus,History/Culture,5,Positive,Positive,0,46,en
+293,Ephesus,History/Culture,5,Positive,Positive,0,33,en
+294,Ephesus,History/Culture,5,Positive,Positive,0,14,en
+295,Ephesus,History/Culture,5,Positive,Positive,0,37,en
+296,Ephesus,History/Culture,5,Positive,Positive,0,59,en
+297,Ephesus,History/Culture,5,Positive,Positive,0,77,en
+298,Ephesus,History/Culture,5,Positive,Positive,0,82,en
+299,Ephesus,History/Culture,5,Positive,Positive,0,28,en
+300,Ephesus,History/Culture,5,Positive,Positive,0,25,en
+301,Ephesus,History/Culture,5,Positive,Positive,0,10,en
+302,Ephesus,History/Culture,5,Positive,Positive,0,47,en
+303,Ephesus,History/Culture,5,Positive,Positive,0,9,en
+304,Ephesus,History/Culture,5,Positive,Positive,0,90,en
+305,Ephesus,History/Culture,5,Positive,Positive,0,27,en
+306,Ephesus,History/Culture,5,Positive,Positive,0,73,en
+307,Ephesus,History/Culture,5,Positive,Positive,0,46,en
+308,Ephesus,History/Culture,5,Positive,Positive,0,23,en
+309,Ephesus,History/Culture,5,Positive,Positive,0,18,en
+310,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,49,en
+311,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,27,en
+312,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,39,en
+313,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,53,en
+314,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,132,en
+315,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,27,en
+316,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,83,en
+317,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,108,en
+318,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,27,en
+319,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,39,en
+320,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,23,en
+321,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,204,en
+322,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,37,en
+323,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,34,en
+324,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,63,en
+325,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,62,en
+326,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,21,en
+327,Ilica Plaji,Beach/Coastal,1,Negative,Negative,0,42,en
+328,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,87,en
+329,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,25,en
+330,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,70,en
+331,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,86,en
+332,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,18,en
+333,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,25,en
+334,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,77,en
+335,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,51,en
+336,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,26,en
+337,Ilica Plaji,Beach/Coastal,2,Negative,Negative,0,42,en
+338,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,154,en
+339,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,52,en
+340,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,28,en
+341,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,118,en
+342,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,95,en
+343,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,29,en
+344,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,33,en
+345,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,49,en
+346,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,73,en
+348,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,160,en
+349,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,28,en
+350,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,23,en
+351,Ilica Plaji,Beach/Coastal,3,Neutral,Negative,1,33,en
+352,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,41,en
+353,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,91,en
+354,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,122,en
+355,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,20,en
+356,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,28,en
+357,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,41,en
+358,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,26,en
+359,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,50,en
+360,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,21,en
+361,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,23,en
+362,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,33,en
+363,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,30,en
+364,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,50,en
+365,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,44,en
+366,Ilica Plaji,Beach/Coastal,3,Neutral,Neutral,0,52,en
+367,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,54,en
+368,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,22,en
+369,Ilica Plaji,Beach/Coastal,4,Positive,Neutral,1,44,en
+370,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,155,en
+371,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,35,en
+372,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,70,en
+373,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,23,en
+374,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,29,en
+375,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,68,en
+376,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,112,en
+377,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,46,en
+378,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,67,en
+379,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,94,en
+380,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,56,en
+381,Ilica Plaji,Beach/Coastal,4,Positive,Positive,0,77,en
+382,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,9,en
+383,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,7,en
+384,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,31,en
+385,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,58,en
+386,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,16,en
+387,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,41,en
+388,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,70,en
+389,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,67,en
+390,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,47,en
+391,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,67,en
+392,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,25,en
+393,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,49,en
+394,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,42,en
+395,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,74,en
+396,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,36,en
+397,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,28,en
+398,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,18,en
+399,Ilica Plaji,Beach/Coastal,5,Positive,Positive,0,36,en
+400,Izmir Marriott Hotel,Family,1,Negative,Negative,0,110,en
+401,Izmir Marriott Hotel,Family,1,Negative,Negative,0,48,en
+402,Izmir Marriott Hotel,Family,1,Negative,Negative,0,30,en
+403,Izmir Marriott Hotel,Family,1,Negative,Negative,0,42,en
+404,Izmir Marriott Hotel,Family,1,Negative,Negative,0,68,en
+405,Izmir Marriott Hotel,Family,1,Negative,Negative,0,38,en
+406,Izmir Marriott Hotel,Family,1,Negative,Negative,0,43,en
+407,Izmir Marriott Hotel,Family,1,Negative,Negative,0,63,en
+408,Izmir Marriott Hotel,Family,1,Negative,Negative,0,167,en
+409,Izmir Marriott Hotel,Family,1,Negative,Negative,0,247,en
+410,Izmir Marriott Hotel,Family,2,Negative,Negative,0,93,en
+411,Izmir Marriott Hotel,Family,2,Negative,Negative,0,70,en
+412,Izmir Marriott Hotel,Family,2,Negative,Negative,0,57,en
+413,Izmir Marriott Hotel,Family,2,Negative,Negative,0,147,en
+414,Izmir Marriott Hotel,Family,2,Negative,Negative,0,38,en
+415,Izmir Marriott Hotel,Family,2,Negative,Negative,0,90,en
+416,Izmir Marriott Hotel,Family,3,Neutral,Neutral,0,73,en
+417,Izmir Marriott Hotel,Family,3,Neutral,Neutral,0,211,en
+418,Izmir Marriott Hotel,Family,3,Neutral,Neutral,0,46,en
+419,Izmir Marriott Hotel,Family,3,Neutral,Negative,1,55,en
+420,Izmir Marriott Hotel,Family,3,Neutral,Neutral,0,91,en
+421,Izmir Marriott Hotel,Family,4,Positive,Positive,0,38,en
+422,Izmir Marriott Hotel,Family,4,Positive,Positive,0,33,en
+423,Izmir Marriott Hotel,Family,4,Positive,Positive,0,160,en
+424,Izmir Marriott Hotel,Family,4,Positive,Positive,0,28,en
+425,Izmir Marriott Hotel,Family,4,Positive,Positive,0,65,en
+426,Izmir Marriott Hotel,Family,4,Positive,Positive,0,41,en
+427,Izmir Marriott Hotel,Family,5,Positive,Positive,0,133,en
+428,Izmir Marriott Hotel,Family,5,Positive,Positive,0,71,en
+429,Izmir Marriott Hotel,Family,5,Positive,Positive,0,52,en
+430,Izmir Marriott Hotel,Family,5,Positive,Positive,0,13,en
+431,Izmir Marriott Hotel,Family,5,Positive,Positive,0,46,en
+432,Izmir Marriott Hotel,Family,1,Negative,Negative,0,34,en
+433,Izmir Marriott Hotel,Family,3,Neutral,Neutral,0,18,en
+434,Izmir Marriott Hotel,Family,3,Neutral,Neutral,0,80,en
+435,Izmir Marriott Hotel,Family,3,Neutral,Neutral,0,32,en
+436,Izmir Marriott Hotel,Family,3,Neutral,Neutral,0,46,en
+437,Izmir Marriott Hotel,Family,4,Positive,Positive,0,21,en
+438,Izmir Marriott Hotel,Family,4,Positive,Positive,0,26,en
+439,Izmir Marriott Hotel,Family,4,Positive,Positive,0,86,en
+440,Izmir Marriott Hotel,Family,4,Positive,Positive,0,40,en
+441,Izmir Marriott Hotel,Family,4,Positive,Positive,0,19,en
+442,Izmir Marriott Hotel,Family,5,Positive,Positive,0,16,en
+443,Izmir Marriott Hotel,Family,5,Positive,Positive,0,25,en
+444,Izmir Marriott Hotel,Family,5,Positive,Positive,0,43,en
+445,Izmir Marriott Hotel,Family,5,Positive,Positive,0,33,en
+446,Reyhan Pastanesi,Food/Gastronomy,1,Negative,Negative,0,90,en
+447,Reyhan Pastanesi,Food/Gastronomy,1,Negative,Negative,0,31,en
+448,Reyhan Pastanesi,Food/Gastronomy,1,Negative,Negative,0,63,en
+449,Reyhan Pastanesi,Food/Gastronomy,1,Negative,Negative,0,40,en
+450,Reyhan Pastanesi,Food/Gastronomy,1,Negative,Negative,0,29,en
+451,Reyhan Pastanesi,Food/Gastronomy,1,Negative,Negative,0,37,en
+452,Reyhan Pastanesi,Food/Gastronomy,1,Negative,Negative,0,16,en
+453,Reyhan Pastanesi,Food/Gastronomy,2,Negative,Negative,0,62,en
+454,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,39,en
+455,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,48,en
+456,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,29,en
+457,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,19,en
+458,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,20,en
+459,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,79,en
+460,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Negative,1,35,en
+461,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,48,en
+462,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Negative,1,258,en
+463,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,28,en
+464,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,21,en
+465,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,23,en
+466,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,Neutral,0,76,en
+467,Reyhan Pastanesi,Food/Gastronomy,4,Positive,Positive,0,33,en
+468,Reyhan Pastanesi,Food/Gastronomy,4,Positive,Positive,0,140,en
+469,Reyhan Pastanesi,Food/Gastronomy,4,Positive,Positive,0,18,en
+470,Reyhan Pastanesi,Food/Gastronomy,4,Positive,Positive,0,18,en
+471,Reyhan Pastanesi,Food/Gastronomy,5,Positive,Positive,0,10,en
+472,Reyhan Pastanesi,Food/Gastronomy,5,Positive,Positive,0,6,en
+473,Reyhan Pastanesi,Food/Gastronomy,5,Positive,Positive,0,23,en
+474,Reyhan Pastanesi,Food/Gastronomy,5,Positive,Positive,0,9,en
+475,Reyhan Pastanesi,Food/Gastronomy,5,Positive,Positive,0,13,en
+476,Bostanli Meyhanesi,Nightlife,1,Negative,Negative,0,48,en
+477,Bostanli Meyhanesi,Nightlife,1,Negative,Negative,0,174,en
+478,Bostanli Meyhanesi,Nightlife,5,Positive,Positive,0,26,en
+479,Bostanli Meyhanesi,Nightlife,5,Positive,Positive,0,22,en
+480,Bios Bar,Nightlife,1,Negative,Negative,0,148,en
+481,Bios Bar,Nightlife,2,Negative,Negative,0,186,en
+482,Bios Bar,Nightlife,5,Positive,Positive,0,25,en
+483,Scappi,Nightlife,1,Negative,Negative,0,42,en
+484,Scappi,Nightlife,1,Negative,Negative,0,25,en
+485,Scappi,Nightlife,1,Negative,Negative,0,129,en
+486,Scappi,Nightlife,1,Negative,Negative,0,140,en
+487,Scappi,Nightlife,1,Negative,Negative,0,168,en
+488,Scappi,Nightlife,1,Negative,Negative,0,25,en
+489,Scappi,Nightlife,1,Negative,Negative,0,162,en
+490,Scappi,Nightlife,1,Negative,Negative,0,52,en
+491,Scappi,Nightlife,1,Negative,Negative,0,56,en
+492,Scappi,Nightlife,1,Negative,Negative,0,37,en
+493,Scappi,Nightlife,1,Negative,Negative,0,28,en
+494,Scappi,Nightlife,1,Negative,Negative,0,55,en
+495,Scappi,Nightlife,2,Negative,Negative,0,148,en
+496,Scappi,Nightlife,2,Negative,Negative,0,23,en
+497,Scappi,Nightlife,2,Negative,Negative,0,23,en
+498,Scappi,Nightlife,2,Negative,Negative,0,78,en
+499,Scappi,Nightlife,2,Negative,Negative,0,71,en
+500,Scappi,Nightlife,2,Negative,Negative,0,114,en
+501,Scappi,Nightlife,2,Negative,Negative,0,152,en
+502,Scappi,Nightlife,2,Negative,Negative,0,208,en
+503,Scappi,Nightlife,2,Negative,Negative,0,221,en
+504,Scappi,Nightlife,2,Negative,Negative,0,289,en
+505,Scappi,Nightlife,3,Neutral,Neutral,0,34,en
+506,Scappi,Nightlife,3,Neutral,Neutral,0,19,en
+507,Scappi,Nightlife,3,Neutral,Neutral,0,20,en
+508,Scappi,Nightlife,3,Neutral,Neutral,0,91,en
+509,Scappi,Nightlife,3,Neutral,Neutral,0,41,en
+510,Scappi,Nightlife,3,Neutral,Neutral,0,141,en
+511,Scappi,Nightlife,3,Neutral,Neutral,0,55,en
+512,Scappi,Nightlife,4,Positive,Positive,0,20,en
+513,Scappi,Nightlife,4,Positive,Positive,0,60,en
+514,Scappi,Nightlife,4,Positive,Positive,0,12,en
+515,Scappi,Nightlife,4,Positive,Positive,0,46,en
+516,Scappi,Nightlife,4,Positive,Positive,0,95,en
+517,Scappi,Nightlife,4,Positive,Positive,0,37,en
+518,Scappi,Nightlife,4,Positive,Positive,0,27,en
+519,Scappi,Nightlife,5,Positive,Positive,0,104,en
+520,Scappi,Nightlife,5,Positive,Positive,0,18,en
+521,Scappi,Nightlife,5,Positive,Positive,0,85,en
+522,Scappi,Nightlife,5,Positive,Positive,0,22,en
+523,Scappi,Nightlife,5,Positive,Positive,0,36,en
+524,Scappi,Nightlife,5,Positive,Positive,0,21,en
+525,Scappi,Nightlife,5,Positive,Positive,0,100,en
+526,Scappi,Nightlife,5,Positive,Positive,0,52,en
+527,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,34,en
+528,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,18,en
+529,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,38,en
+530,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,26,en
+531,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,46,en
+532,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,18,en
+533,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,45,en
+534,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,38,en
+535,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,43,en
+536,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,44,en
+537,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,128,en
+538,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,41,en
+539,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,17,en
+540,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,29,en
+541,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,62,en
+542,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,33,en
+543,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,45,en
+544,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,21,en
+545,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,25,en
+546,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,37,en
+547,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,41,en
+548,Deniz Restaurant,Food/Gastronomy,1,Negative,Negative,0,25,en
+549,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,26,en
+550,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,82,en
+551,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,98,en
+552,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,335,en
+553,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,184,en
+554,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,25,en
+555,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,30,en
+556,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,75,en
+557,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,31,en
+558,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,190,en
+559,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,26,en
+560,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,110,en
+561,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,63,en
+562,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,54,en
+563,Deniz Restaurant,Food/Gastronomy,2,Negative,Negative,0,30,en
+564,Deniz Restaurant,Food/Gastronomy,3,Neutral,Negative,1,58,en
+565,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,64,en
+566,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,35,en
+567,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,44,en
+568,Deniz Restaurant,Food/Gastronomy,3,Neutral,Negative,1,65,en
+569,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,56,en
+570,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,20,en
+571,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,26,en
+572,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,345,en
+573,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,76,en
+574,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,39,en
+575,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,31,en
+576,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,58,en
+577,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,134,en
+578,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,23,en
+579,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,68,en
+580,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,48,en
+581,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,73,en
+582,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,64,en
+583,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,22,en
+584,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,64,en
+585,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,43,en
+586,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,54,en
+587,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,76,en
+588,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,77,en
+589,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,21,en
+590,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,128,en
+591,Deniz Restaurant,Food/Gastronomy,3,Neutral,Neutral,0,19,en
+592,Deniz Restaurant,Food/Gastronomy,4,Positive,Positive,0,60,en
+593,Deniz Restaurant,Food/Gastronomy,4,Positive,Positive,0,25,en
+594,Deniz Restaurant,Food/Gastronomy,4,Positive,Positive,0,31,en
+595,Deniz Restaurant,Food/Gastronomy,4,Positive,Positive,0,70,en
+596,Deniz Restaurant,Food/Gastronomy,5,Positive,Positive,0,98,en
+597,Deniz Restaurant,Food/Gastronomy,5,Positive,Positive,0,36,en
+598,Deniz Restaurant,Food/Gastronomy,5,Positive,Positive,0,20,en
+599,Deniz Restaurant,Food/Gastronomy,5,Positive,Positive,0,76,en

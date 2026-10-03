@@ -1,0 +1,13 @@
+scheme,family,macro_f1,ci_lo,ci_hi,accuracy,f1_Negative,f1_Neutral,f1_Positive
+random_5fold,VADER,0.4823,0.4502,0.5154,0.6271,0.6352,0.0625,0.7493
+random_5fold,TFIDF-LR,0.6273,0.5857,0.666,0.689,0.6949,0.383,0.804
+random_5fold,TFIDF-SVM,0.6246,0.5819,0.6629,0.689,0.6947,0.3772,0.802
+random_5fold,CNN,0.5925,0.5533,0.6312,0.6488,0.6791,0.3154,0.7829
+random_5fold,BiLSTM,0.5681,0.5279,0.6065,0.6037,0.6072,0.3636,0.7333
+leave_one_attraction_out,VADER,0.4823,0.4502,0.5154,0.6271,0.6352,0.0625,0.7493
+leave_one_attraction_out,TFIDF-LR,0.5963,0.5557,0.6345,0.6706,0.6788,0.3223,0.788
+leave_one_attraction_out,TFIDF-SVM,0.5935,0.5525,0.6319,0.6689,0.6805,0.3173,0.7828
+leave_one_attraction_out,CNN,0.5725,0.5325,0.6086,0.6054,0.6319,0.3282,0.7576
+leave_one_attraction_out,BiLSTM,0.5614,0.5221,0.5988,0.5769,0.5677,0.4202,0.6963
+random_5fold,DistilBERT,0.7046,0.667,0.7393,0.7458,0.7649,0.4857,0.8632
+leave_one_attraction_out,DistilBERT,0.7136,0.6758,0.7492,0.7525,0.7557,0.5123,0.873

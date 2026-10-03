@@ -1,0 +1,178 @@
+{
+ "category_x_sentiment": {
+  "chi2": 62.21843840553744,
+  "dof": 10,
+  "p": 1.3752244160945705e-09,
+  "cramers_v": 0.22808354980192827,
+  "min_expected_count": 9.498327759197325,
+  "standardised_residuals": {
+   "Beach/Coastal": {
+    "Negative": -0.22,
+    "Neutral": 1.99,
+    "Positive": -1.24
+   },
+   "Family": {
+    "Negative": -0.03,
+    "Neutral": -1.6,
+    "Positive": 1.17
+   },
+   "Food/Gastronomy": {
+    "Negative": 2.44,
+    "Neutral": 1.55,
+    "Positive": -3.05
+   },
+   "History/Culture": {
+    "Negative": -3.19,
+    "Neutral": -0.91,
+    "Positive": 3.19
+   },
+   "Nature": {
+    "Negative": -1.99,
+    "Neutral": -0.49,
+    "Positive": 1.93
+   },
+   "Nightlife": {
+    "Negative": 1.39,
+    "Neutral": -1.98,
+    "Positive": 0.31
+   }
+  }
+ },
+ "stars_by_category_kruskal": {
+  "H": 48.91719924507059,
+  "p": 2.3074315578030907e-09
+ },
+ "topic_model": {
+  "method": "NMF on TF-IDF (1-2 grams, min_df=3, max_df=0.5), Negative+Neutral reviews; English stopwords, attraction/place names and VADER words with |valence|>=1 removed",
+  "n_evaluative_words_removed_from_lexicon": 5578,
+  "n_documents": 319,
+  "k_range": [
+   3,
+   10
+  ],
+  "selected_k": 4,
+  "selection_criterion": "max mean c_v coherence (top-10 unigrams)",
+  "topics": [
+   {
+    "topic": 0,
+    "top_terms": [
+     "menu",
+     "price",
+     "table",
+     "waiter",
+     "staff",
+     "asked",
+     "came",
+     "ordered",
+     "fish",
+     "service",
+     "wine",
+     "salad"
+    ],
+    "n_reviews": 108,
+    "share_pct": 33.85579937304075,
+    "pct_negative_within": 69.44444444444444,
+    "top_categories": {
+     "Food/Gastronomy": 57,
+     "Family": 26,
+     "Nightlife": 19
+    },
+    "representative_review_ids": [
+     558,
+     176,
+     504
+    ]
+   },
+   {
+    "topic": 1,
+    "top_terms": [
+     "sand",
+     "water",
+     "sea",
+     "area",
+     "crowded",
+     "kids",
+     "small",
+     "shallow",
+     "butts",
+     "long",
+     "private",
+     "cigarette"
+    ],
+    "n_reviews": 65,
+    "share_pct": 20.37617554858934,
+    "pct_negative_within": 49.23076923076923,
+    "top_categories": {
+     "Beach/Coastal": 48,
+     "History/Culture": 8,
+     "Family": 3
+    },
+    "representative_review_ids": [
+     357,
+     344,
+     339
+    ]
+   },
+   {
+    "topic": 2,
+    "top_terms": [
+     "people",
+     "animals",
+     "city",
+     "area",
+     "point",
+     "square",
+     "different",
+     "come",
+     "used",
+     "town",
+     "zoo",
+     "walking"
+    ],
+    "n_reviews": 60,
+    "share_pct": 18.808777429467085,
+    "pct_negative_within": 45.0,
+    "top_categories": {
+     "History/Culture": 16,
+     "Food/Gastronomy": 14,
+     "Beach/Coastal": 12
+    },
+    "representative_review_ids": [
+     332,
+     20,
+     21
+    ]
+   },
+   {
+    "topic": 3,
+    "top_terms": [
+     "food",
+     "service",
+     "expensive",
+     "taste",
+     "average",
+     "food service",
+     "prices",
+     "service food",
+     "restaurants",
+     "overpriced",
+     "high",
+     "quality"
+    ],
+    "n_reviews": 86,
+    "share_pct": 26.959247648902824,
+    "pct_negative_within": 50.0,
+    "top_categories": {
+     "Food/Gastronomy": 64,
+     "Nightlife": 10,
+     "Family": 5
+    },
+    "representative_review_ids": [
+     213,
+     544,
+     566
+    ]
+   }
+  ]
+ }
+}

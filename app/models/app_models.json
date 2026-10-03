@@ -1,0 +1,22 @@
+{
+ "sklearn_version": "1.8.0",
+ "labels": [
+  "Negative",
+  "Neutral",
+  "Positive"
+ ],
+ "models": {
+  "TFIDF-LR": {
+   "config": "C=30,ngram=1-2,cw=none",
+   "test_macro_f1": 0.6859
+  },
+  "TFIDF-SVM": {
+   "config": "C=1,ngram=1-2,cw=none",
+   "test_macro_f1": 0.7048
+  }
+ },
+ "vader_band": {
+  "lo": -0.1,
+  "hi": 0.7
+ }
+}

@@ -1,0 +1,320 @@
+Review_ID,Attraction_Name,Attraction_Category,Final_Sentiment,topic,topic_weight
+1,Alsancak,Beach/Coastal,Negative,3,0.024220230706579894
+12,Alsancak,Beach/Coastal,Negative,1,0.07560887932847778
+13,Alsancak,Beach/Coastal,Neutral,1,0.07618734346124305
+14,Alsancak,Beach/Coastal,Neutral,1,0.0667915063118461
+15,Alsancak,Beach/Coastal,Neutral,2,0.09144565733526348
+16,Alsancak,Beach/Coastal,Neutral,2,0.18385812645046515
+17,Alsancak,Beach/Coastal,Neutral,1,0.06855911212560865
+18,Alsancak,Beach/Coastal,Neutral,0,0.05428468287087056
+19,Alsancak,Beach/Coastal,Neutral,3,0.22241575077696732
+20,Alsancak,Beach/Coastal,Neutral,2,0.39262165478219907
+21,Izmir Wildlife Park,Nature,Negative,2,0.3623972426077314
+22,Izmir Wildlife Park,Nature,Negative,2,0.3053377525672411
+23,Izmir Wildlife Park,Nature,Negative,2,0.11833657231269361
+24,Izmir Wildlife Park,Nature,Negative,2,0.141345168443225
+25,Izmir Wildlife Park,Nature,Negative,2,0.16004479475791167
+26,Izmir Wildlife Park,Nature,Neutral,1,0.12300339713874843
+27,Izmir Wildlife Park,Nature,Neutral,2,0.09091458200629712
+28,Izmir Wildlife Park,Nature,Neutral,3,0.026440142887353905
+29,Izmir Wildlife Park,Nature,Neutral,2,0.13171685541551312
+30,Izmir Wildlife Park,Nature,Neutral,2,0.11873118406635945
+31,Izmir Wildlife Park,Nature,Neutral,2,0.10259145917299176
+32,Izmir Wildlife Park,Nature,Neutral,2,0.13875207621813176
+33,Izmir Wildlife Park,Nature,Neutral,2,0.12847588581263808
+61,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,1,0.033410691668608494
+62,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,2,0.04715394833273121
+63,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,1,0.11401176991337807
+64,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,2,0.27361116300715105
+65,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,3,0.04928197962457461
+66,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,1,0.11678916299243733
+67,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,1,0.09550902600704311
+68,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,2,0.06007792970571813
+69,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,2,0.26918881045884513
+70,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,2,0.09510144542596646
+71,Izmir Saat Kulesi (Clock Tower),History/Culture,Negative,1,0.11282627523590807
+72,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,1,0.04368669032378706
+73,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.052037654845502615
+74,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,1,0.07823604727375393
+75,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.06196106315359753
+76,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.08327054931166761
+77,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.34970360144606966
+78,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,1,0.14687631653720828
+79,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.07199763546855124
+80,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.07507070723601506
+81,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,3,0.04959014122569881
+82,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.09716752459053077
+83,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.28864776524406943
+84,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.18155291349548836
+85,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,0,0.01679250157547582
+86,Izmir Saat Kulesi (Clock Tower),History/Culture,Neutral,2,0.2510004819719433
+111,Punt Ancient Pub,Nightlife,Neutral,0,0.04221467873299607
+127,Key Hotel,Family,Negative,0,0.12952707601789681
+128,Key Hotel,Family,Negative,0,0.13217503369487266
+129,Key Hotel,Family,Negative,0,0.15813778258002492
+130,Key Hotel,Family,Negative,3,0.05534982628153568
+131,Key Hotel,Family,Negative,0,0.10202898894095722
+132,Key Hotel,Family,Negative,0,0.06967215976148568
+133,Key Hotel,Family,Negative,0,0.07991879535280559
+134,Key Hotel,Family,Neutral,3,0.1286454116170383
+135,Key Hotel,Family,Neutral,0,0.11948047603943915
+136,Key Hotel,Family,Neutral,0,0.04320241217161982
+137,Key Hotel,Family,Neutral,1,0.0668707185354079
+138,Key Hotel,Family,Neutral,0,0.13923141031074224
+166,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.11986454198157998
+167,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.13106604969016436
+168,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.08998777089775362
+169,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.028860014094007326
+170,Tavaci Recep Usta,Food/Gastronomy,Negative,2,0.15680577398074286
+171,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.11965444487294469
+172,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.21570328231807492
+173,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.13688771914760908
+174,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.10621573342698312
+175,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.18483347326166294
+176,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.2166056212556903
+177,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.10575170745711356
+178,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.1373027721839447
+179,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.07794221313533684
+180,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.1360468766109777
+181,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.10578664745338182
+182,Tavaci Recep Usta,Food/Gastronomy,Negative,2,0.05630793333805104
+183,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.12788840614503022
+184,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.09370498860952592
+185,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.11637431546712258
+186,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.14371321593056405
+187,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.0819484611608899
+188,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.19539611587889033
+189,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.13096941059266495
+190,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.19557606177994058
+191,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.08557744158191698
+192,Tavaci Recep Usta,Food/Gastronomy,Negative,2,0.12642619043633865
+193,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.06245445537392878
+194,Tavaci Recep Usta,Food/Gastronomy,Negative,3,0.09359643507636778
+195,Tavaci Recep Usta,Food/Gastronomy,Negative,0,0.09835783072690552
+196,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.1484325344017933
+197,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.11893643971126909
+198,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.1320597701194772
+199,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.1773637299446536
+200,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.10548730197171899
+201,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.10114426314664142
+202,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.09752555309280186
+203,Tavaci Recep Usta,Food/Gastronomy,Neutral,2,0.06677231818936315
+204,Tavaci Recep Usta,Food/Gastronomy,Neutral,2,0.07177078569340178
+205,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.1536500484061317
+206,Tavaci Recep Usta,Food/Gastronomy,Neutral,2,0.14969483353873908
+207,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.019645324326427387
+208,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.1569494799635303
+209,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.07723945952631121
+210,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.051971876989567706
+211,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.1327868334420249
+212,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.21186009137639017
+213,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.3533934380017388
+214,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.10327881081141597
+215,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.0920985248388894
+216,Tavaci Recep Usta,Food/Gastronomy,Neutral,3,0.11269526312310477
+219,Tavaci Recep Usta,Food/Gastronomy,Neutral,0,0.10417926536832367
+266,Ephesus,History/Culture,Neutral,0,0.0776717686656742
+267,Ephesus,History/Culture,Neutral,0,0.03956770611275121
+268,Ephesus,History/Culture,Neutral,2,0.10076692061117506
+310,Ilica Plaji,Beach/Coastal,Negative,1,0.24685626118939744
+311,Ilica Plaji,Beach/Coastal,Negative,1,0.1076577454093159
+312,Ilica Plaji,Beach/Coastal,Negative,1,0.08546373141727742
+313,Ilica Plaji,Beach/Coastal,Negative,1,0.19238309119972893
+314,Ilica Plaji,Beach/Coastal,Negative,2,0.22774761607471466
+315,Ilica Plaji,Beach/Coastal,Negative,0,0.05449378266791537
+316,Ilica Plaji,Beach/Coastal,Negative,1,0.12068808674695325
+317,Ilica Plaji,Beach/Coastal,Negative,1,0.12130035602591338
+318,Ilica Plaji,Beach/Coastal,Negative,1,0.12645287059887791
+319,Ilica Plaji,Beach/Coastal,Negative,1,0.08458177598978053
+320,Ilica Plaji,Beach/Coastal,Negative,1,0.3248358792362725
+321,Ilica Plaji,Beach/Coastal,Negative,1,0.2734445607928197
+322,Ilica Plaji,Beach/Coastal,Negative,1,0.16048376531781927
+323,Ilica Plaji,Beach/Coastal,Negative,1,0.02663668262110989
+324,Ilica Plaji,Beach/Coastal,Negative,1,0.07334019000583056
+325,Ilica Plaji,Beach/Coastal,Negative,2,0.19300531858857328
+326,Ilica Plaji,Beach/Coastal,Negative,0,0.03688221498846036
+327,Ilica Plaji,Beach/Coastal,Negative,1,0.1297365532005594
+328,Ilica Plaji,Beach/Coastal,Negative,2,0.11706882185406028
+329,Ilica Plaji,Beach/Coastal,Negative,1,0.2822732660011468
+330,Ilica Plaji,Beach/Coastal,Negative,1,0.2726448530598265
+331,Ilica Plaji,Beach/Coastal,Negative,1,0.29798903405579685
+332,Ilica Plaji,Beach/Coastal,Negative,2,0.5783415414050638
+333,Ilica Plaji,Beach/Coastal,Negative,1,0.1589170733150418
+334,Ilica Plaji,Beach/Coastal,Negative,1,0.12279901211672772
+335,Ilica Plaji,Beach/Coastal,Negative,2,0.3107222887572616
+336,Ilica Plaji,Beach/Coastal,Negative,1,0.17685339817335807
+337,Ilica Plaji,Beach/Coastal,Negative,3,0.09353728511235103
+338,Ilica Plaji,Beach/Coastal,Neutral,1,0.21952639043062822
+339,Ilica Plaji,Beach/Coastal,Neutral,1,0.34833065464072493
+340,Ilica Plaji,Beach/Coastal,Neutral,1,0.250190655075914
+341,Ilica Plaji,Beach/Coastal,Neutral,1,0.26291922448826677
+342,Ilica Plaji,Beach/Coastal,Neutral,2,0.26407691694765006
+343,Ilica Plaji,Beach/Coastal,Neutral,1,0.3399511428131021
+344,Ilica Plaji,Beach/Coastal,Neutral,1,0.37270772788705775
+345,Ilica Plaji,Beach/Coastal,Neutral,1,0.18632414465334574
+346,Ilica Plaji,Beach/Coastal,Neutral,2,0.12684701116323732
+348,Ilica Plaji,Beach/Coastal,Neutral,1,0.1746282379991464
+349,Ilica Plaji,Beach/Coastal,Neutral,1,0.11054004602441908
+350,Ilica Plaji,Beach/Coastal,Neutral,1,0.2037297086840913
+351,Ilica Plaji,Beach/Coastal,Negative,1,0.10305993086520865
+352,Ilica Plaji,Beach/Coastal,Neutral,1,0.17150829768055287
+353,Ilica Plaji,Beach/Coastal,Neutral,1,0.10394890574159725
+354,Ilica Plaji,Beach/Coastal,Neutral,1,0.23524693352915188
+355,Ilica Plaji,Beach/Coastal,Neutral,1,0.13459416512491484
+356,Ilica Plaji,Beach/Coastal,Neutral,1,0.16675393016714413
+357,Ilica Plaji,Beach/Coastal,Neutral,1,0.3892212489573825
+358,Ilica Plaji,Beach/Coastal,Neutral,1,0.1786816204730395
+359,Ilica Plaji,Beach/Coastal,Neutral,1,0.19020209577825684
+360,Ilica Plaji,Beach/Coastal,Neutral,3,0.09385172677068397
+361,Ilica Plaji,Beach/Coastal,Neutral,2,0.2694796050559441
+362,Ilica Plaji,Beach/Coastal,Neutral,1,0.13034659569880042
+363,Ilica Plaji,Beach/Coastal,Neutral,1,0.23835858930401313
+364,Ilica Plaji,Beach/Coastal,Neutral,1,0.2439878233226422
+365,Ilica Plaji,Beach/Coastal,Neutral,1,0.20299389136814938
+366,Ilica Plaji,Beach/Coastal,Neutral,2,0.05628123370500557
+369,Ilica Plaji,Beach/Coastal,Neutral,1,0.23262737893100138
+400,Izmir Marriott Hotel,Family,Negative,0,0.10380699824893026
+401,Izmir Marriott Hotel,Family,Negative,1,0.061891483068416776
+402,Izmir Marriott Hotel,Family,Negative,0,0.038320664469796976
+403,Izmir Marriott Hotel,Family,Negative,0,0.10154369444888542
+404,Izmir Marriott Hotel,Family,Negative,0,0.05482542223430258
+405,Izmir Marriott Hotel,Family,Negative,0,0.06678483345159131
+406,Izmir Marriott Hotel,Family,Negative,0,0.09638639677995735
+407,Izmir Marriott Hotel,Family,Negative,0,0.047335838657772994
+408,Izmir Marriott Hotel,Family,Negative,0,0.13361747135431773
+409,Izmir Marriott Hotel,Family,Negative,2,0.1695072002563643
+410,Izmir Marriott Hotel,Family,Negative,0,0.133524315669
+411,Izmir Marriott Hotel,Family,Negative,1,0.0382886964287995
+412,Izmir Marriott Hotel,Family,Negative,0,0.09129654696909345
+413,Izmir Marriott Hotel,Family,Negative,0,0.10387050390061056
+414,Izmir Marriott Hotel,Family,Negative,0,0.13058041633063863
+415,Izmir Marriott Hotel,Family,Negative,0,0.09213859458288076
+416,Izmir Marriott Hotel,Family,Neutral,0,0.10818647042469495
+417,Izmir Marriott Hotel,Family,Neutral,0,0.08589351479008343
+418,Izmir Marriott Hotel,Family,Neutral,3,0.16417567715741505
+419,Izmir Marriott Hotel,Family,Negative,0,0.10536339907784115
+420,Izmir Marriott Hotel,Family,Neutral,3,0.07515960798459803
+432,Izmir Marriott Hotel,Family,Negative,2,0.01774400204048138
+433,Izmir Marriott Hotel,Family,Neutral,2,0.02644267139106289
+434,Izmir Marriott Hotel,Family,Neutral,2,0.035670508580290916
+435,Izmir Marriott Hotel,Family,Neutral,3,0.145846185650286
+436,Izmir Marriott Hotel,Family,Neutral,0,0.035436387369375856
+446,Reyhan Pastanesi,Food/Gastronomy,Negative,0,0.10992896255882684
+447,Reyhan Pastanesi,Food/Gastronomy,Negative,0,0.07739881527032831
+448,Reyhan Pastanesi,Food/Gastronomy,Negative,2,0.3135838890277329
+449,Reyhan Pastanesi,Food/Gastronomy,Negative,0,0.10528172253753491
+450,Reyhan Pastanesi,Food/Gastronomy,Negative,3,0.19829221811014083
+451,Reyhan Pastanesi,Food/Gastronomy,Negative,3,0.06794006079923746
+452,Reyhan Pastanesi,Food/Gastronomy,Negative,0,0.02747590649345333
+453,Reyhan Pastanesi,Food/Gastronomy,Negative,3,0.06381025248992617
+454,Reyhan Pastanesi,Food/Gastronomy,Neutral,0,0.05856625290725681
+455,Reyhan Pastanesi,Food/Gastronomy,Neutral,3,0.05116127124941717
+456,Reyhan Pastanesi,Food/Gastronomy,Neutral,2,0.15312679535210622
+457,Reyhan Pastanesi,Food/Gastronomy,Neutral,1,0.04444113431069974
+458,Reyhan Pastanesi,Food/Gastronomy,Neutral,3,0.071658954765615
+459,Reyhan Pastanesi,Food/Gastronomy,Neutral,2,0.1855884288872962
+460,Reyhan Pastanesi,Food/Gastronomy,Negative,0,0.07404171880542644
+461,Reyhan Pastanesi,Food/Gastronomy,Neutral,3,0.05858035005423564
+462,Reyhan Pastanesi,Food/Gastronomy,Negative,0,0.16655717887519186
+463,Reyhan Pastanesi,Food/Gastronomy,Neutral,2,0.18030874481644946
+464,Reyhan Pastanesi,Food/Gastronomy,Neutral,3,0.08348900910356825
+465,Reyhan Pastanesi,Food/Gastronomy,Neutral,3,0.07929347264723507
+466,Reyhan Pastanesi,Food/Gastronomy,Neutral,3,0.19426958852208878
+476,Bostanli Meyhanesi,Nightlife,Negative,0,0.09910270206030677
+477,Bostanli Meyhanesi,Nightlife,Negative,2,0.13535359468956049
+480,Bios Bar,Nightlife,Negative,0,0.0638176718812868
+481,Bios Bar,Nightlife,Negative,2,0.2002037197648436
+483,Scappi,Nightlife,Negative,3,0.08958958325642223
+484,Scappi,Nightlife,Negative,1,0.11876042832158476
+485,Scappi,Nightlife,Negative,0,0.11612858666467744
+486,Scappi,Nightlife,Negative,0,0.13782407696480573
+487,Scappi,Nightlife,Negative,0,0.10964574747933414
+488,Scappi,Nightlife,Negative,3,0.21936158511527132
+489,Scappi,Nightlife,Negative,0,0.1560135267085916
+490,Scappi,Nightlife,Negative,3,0.14632772949309503
+491,Scappi,Nightlife,Negative,0,0.12997543958826693
+492,Scappi,Nightlife,Negative,0,0.0935568043349549
+493,Scappi,Nightlife,Negative,2,0.2010049525138126
+494,Scappi,Nightlife,Negative,0,0.15646628503162285
+495,Scappi,Nightlife,Negative,0,0.20871795753032177
+496,Scappi,Nightlife,Negative,3,0.11643514410187603
+497,Scappi,Nightlife,Negative,0,0.08944012351485865
+498,Scappi,Nightlife,Negative,3,0.12896800496851651
+499,Scappi,Nightlife,Negative,0,0.09743529261479844
+500,Scappi,Nightlife,Negative,0,0.16676222873799676
+501,Scappi,Nightlife,Negative,3,0.11328086325504436
+502,Scappi,Nightlife,Negative,0,0.16797855187605729
+503,Scappi,Nightlife,Negative,0,0.09690186897447564
+504,Scappi,Nightlife,Negative,0,0.21653574779604798
+505,Scappi,Nightlife,Neutral,0,0.047419886786905785
+506,Scappi,Nightlife,Neutral,3,0.16153474987730626
+507,Scappi,Nightlife,Neutral,1,0.07748768513400182
+508,Scappi,Nightlife,Neutral,0,0.09848396727147268
+509,Scappi,Nightlife,Neutral,3,0.14878233433536503
+510,Scappi,Nightlife,Neutral,3,0.13273052663386353
+511,Scappi,Nightlife,Neutral,3,0.076237447710995
+527,Deniz Restaurant,Food/Gastronomy,Negative,2,0.1895177510591427
+528,Deniz Restaurant,Food/Gastronomy,Negative,3,0.05822770105848081
+529,Deniz Restaurant,Food/Gastronomy,Negative,0,0.09961543554381404
+530,Deniz Restaurant,Food/Gastronomy,Negative,0,0.04594348201296156
+531,Deniz Restaurant,Food/Gastronomy,Negative,0,0.09035683934069201
+532,Deniz Restaurant,Food/Gastronomy,Negative,0,0.01747635722507417
+533,Deniz Restaurant,Food/Gastronomy,Negative,0,0.035435199666819045
+534,Deniz Restaurant,Food/Gastronomy,Negative,3,0.11261512380804817
+535,Deniz Restaurant,Food/Gastronomy,Negative,0,0.1291982665286618
+536,Deniz Restaurant,Food/Gastronomy,Negative,3,0.1991371175086125
+537,Deniz Restaurant,Food/Gastronomy,Negative,2,0.10554183697273592
+538,Deniz Restaurant,Food/Gastronomy,Negative,3,0.11641771905516134
+539,Deniz Restaurant,Food/Gastronomy,Negative,3,0.23058209005772434
+540,Deniz Restaurant,Food/Gastronomy,Negative,0,0.09975710607102667
+541,Deniz Restaurant,Food/Gastronomy,Negative,3,0.25947761761999194
+542,Deniz Restaurant,Food/Gastronomy,Negative,1,0.08222990508906926
+543,Deniz Restaurant,Food/Gastronomy,Negative,1,0.09486347564343436
+544,Deniz Restaurant,Food/Gastronomy,Negative,3,0.33949937833318156
+545,Deniz Restaurant,Food/Gastronomy,Negative,3,0.18141667384666993
+546,Deniz Restaurant,Food/Gastronomy,Negative,3,0.22177184103840714
+547,Deniz Restaurant,Food/Gastronomy,Negative,0,0.16768016618986395
+548,Deniz Restaurant,Food/Gastronomy,Negative,3,0.26609516541287187
+549,Deniz Restaurant,Food/Gastronomy,Negative,3,0.09415384674448923
+550,Deniz Restaurant,Food/Gastronomy,Negative,0,0.08866063749359351
+551,Deniz Restaurant,Food/Gastronomy,Negative,2,0.11833824590672072
+552,Deniz Restaurant,Food/Gastronomy,Negative,0,0.21260942745038539
+553,Deniz Restaurant,Food/Gastronomy,Negative,0,0.1999011469894609
+554,Deniz Restaurant,Food/Gastronomy,Negative,0,0.10801763991588564
+555,Deniz Restaurant,Food/Gastronomy,Negative,3,0.14295527236621508
+556,Deniz Restaurant,Food/Gastronomy,Negative,0,0.1543953925863191
+557,Deniz Restaurant,Food/Gastronomy,Negative,0,0.09459619648766929
+558,Deniz Restaurant,Food/Gastronomy,Negative,0,0.21978905842328655
+559,Deniz Restaurant,Food/Gastronomy,Negative,0,0.12457478676807986
+560,Deniz Restaurant,Food/Gastronomy,Negative,3,0.15245288741097343
+561,Deniz Restaurant,Food/Gastronomy,Negative,3,0.19543736657265398
+562,Deniz Restaurant,Food/Gastronomy,Negative,3,0.24069604299838082
+563,Deniz Restaurant,Food/Gastronomy,Negative,3,0.21020886919450432
+564,Deniz Restaurant,Food/Gastronomy,Negative,3,0.11652422388095637
+565,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.11812748669995361
+566,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.30463677308369325
+567,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.20502038747084497
+568,Deniz Restaurant,Food/Gastronomy,Negative,3,0.1446459589759675
+569,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.15034594763186662
+570,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.15829905750096682
+571,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.20895658624584154
+572,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.16368231814880288
+573,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.09262363031989218
+574,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.1777393519571504
+575,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.16901900927288646
+576,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.12390709186438495
+577,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.12373596733932572
+578,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.2983974866971637
+579,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.21127931316200943
+580,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.21005923786765965
+581,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.10523701479949726
+582,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.1506794854473415
+583,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.20827604379129158
+584,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.15169680585129258
+585,Deniz Restaurant,Food/Gastronomy,Neutral,2,0.12438499711784408
+586,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.18094448845319563
+587,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.14079043214247547
+588,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.1274520113028058
+589,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.08714638269443686
+590,Deniz Restaurant,Food/Gastronomy,Neutral,0,0.16905035408966038
+591,Deniz Restaurant,Food/Gastronomy,Neutral,3,0.12251322434554256

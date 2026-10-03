@@ -1,0 +1,32 @@
+{
+ "n": 50,
+ "agreement_pct": 90.0,
+ "cohen_kappa_primary": 0.861,
+ "changed": [
+  {
+   "Review_ID": 555,
+   "Coder1_primary": "neutral_boundary",
+   "Coder2_primary": "mixed_sentiment"
+  },
+  {
+   "Review_ID": 454,
+   "Coder1_primary": "rating_text_mismatch",
+   "Coder2_primary": "neutral_boundary"
+  },
+  {
+   "Review_ID": 137,
+   "Coder1_primary": "mixed_sentiment",
+   "Coder2_primary": "rating_text_mismatch"
+  },
+  {
+   "Review_ID": 393,
+   "Coder1_primary": "no_clear_cause",
+   "Coder2_primary": "negation_or_contrast"
+  },
+  {
+   "Review_ID": 379,
+   "Coder1_primary": "implicit_sentiment",
+   "Coder2_primary": "mixed_sentiment"
+  }
+ ]
+}

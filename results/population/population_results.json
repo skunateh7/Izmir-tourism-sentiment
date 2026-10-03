@@ -1,0 +1,68 @@
+{
+ "N_population_reviews": 13209,
+ "n_sample": 598,
+ "population_overall_pct": {
+  "Positive": 87.18298130062836,
+  "Neutral": 7.540313422666364,
+  "Negative": 5.276705276705277
+ },
+ "sample_overall_pct": {
+  "Positive": 46.66,
+  "Negative": 29.6,
+  "Neutral": 23.75
+ },
+ "category_x_sentiment_population": {
+  "chi2": 531.8862648978368,
+  "dof": 10,
+  "p": 6.727684161646391e-108,
+  "cramers_v": 0.14189249321662545,
+  "std_residuals": {
+   "Beach/Coastal": {
+    "Negative": 0.7,
+    "Neutral": 4.8,
+    "Positive": -1.6
+   },
+   "Family": {
+    "Negative": -6.6,
+    "Neutral": -11.4,
+    "Positive": 5.0
+   },
+   "Food/Gastronomy": {
+    "Negative": 11.4,
+    "Neutral": 5.7,
+    "Positive": -4.5
+   },
+   "History/Culture": {
+    "Negative": -8.4,
+    "Neutral": 1.6,
+    "Positive": 1.6
+   },
+   "Nature": {
+    "Negative": -3.4,
+    "Neutral": -1.8,
+    "Positive": 1.4
+   },
+   "Nightlife": {
+    "Negative": 4.6,
+    "Neutral": -3.4,
+    "Positive": -0.1
+   }
+  }
+ },
+ "rank_correlation_net_sentiment_sample_vs_population": 0.7274725274725274,
+ "topic_overall_sample_vs_reweighted": {
+  "sample": {
+   "Beach conditions & crowding": 20.4,
+   "Food quality & value for money": 27.0,
+   "Public-space setting (heterogeneous)": 18.8,
+   "Service encounter & staff": 33.9
+  },
+  "reweighted": {
+   "Beach conditions & crowding": 22.7,
+   "Food quality & value for money": 26.4,
+   "Public-space setting (heterogeneous)": 24.8,
+   "Service encounter & staff": 26.2
+  }
+ },
+ "note": "TripAdvisor counts cover all languages and all years; the sample is English(-translated) text."
+}

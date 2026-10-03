@@ -1,0 +1,9 @@
+Topic,n_reviews,share_pct,pct_negative_within,top_terms,main_categories
+"Service encounter
+& staff",108,33.9,69.4,"menu, price, table, waiter, staff, asked, came, ordered, fish, service",Food/Gastronomy (57); Family (26); Nightlife (19)
+"Beach conditions
+& crowding",65,20.4,49.2,"sand, water, sea, area, crowded, kids, small, shallow, butts, long",Beach/Coastal (48); History/Culture (8); Family (3)
+"Public-space setting
+(heterogeneous)",60,18.8,45.0,"people, animals, city, area, point, square, different, come, used, town",History/Culture (16); Food/Gastronomy (14); Beach/Coastal (12)
+"Food quality
+& value for money",86,27.0,50.0,"food, service, expensive, taste, average, food service, prices, service food, restaurants, overpriced",Food/Gastronomy (64); Nightlife (10); Family (5)

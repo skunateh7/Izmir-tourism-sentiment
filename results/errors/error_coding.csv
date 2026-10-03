@@ -1,0 +1,51 @@
+Review_ID,Attraction_Name,Attraction_Category,Star_Rating,Final_Sentiment,Manual_Override,Word_Count,Predicted,Error_Type,Coder1_primary,Coder2_primary,Final_primary
+419,Izmir Marriott Hotel,Family,3,Negative,1,55,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+536,Deniz Restaurant,Food/Gastronomy,1,Negative,0,44,Neutral,negation_or_contrast,negation_or_contrast,negation_or_contrast,negation_or_contrast
+313,Ilica Plaji,Beach/Coastal,1,Negative,0,53,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+25,Izmir Wildlife Park,Nature,2,Negative,0,97,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+133,Key Hotel,Family,2,Negative,0,85,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+189,Tavaci Recep Usta,Food/Gastronomy,2,Negative,0,48,Neutral,implicit_sentiment,implicit_sentiment,implicit_sentiment,implicit_sentiment
+12,Alsancak,Beach/Coastal,2,Negative,0,41,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+323,Ilica Plaji,Beach/Coastal,1,Negative,0,34,Neutral,implicit_sentiment,implicit_sentiment,implicit_sentiment,implicit_sentiment
+192,Tavaci Recep Usta,Food/Gastronomy,2,Negative,0,84,Neutral,negation_or_contrast,negation_or_contrast,negation_or_contrast,negation_or_contrast
+337,Ilica Plaji,Beach/Coastal,2,Negative,0,42,Neutral,implicit_sentiment,implicit_sentiment,implicit_sentiment,implicit_sentiment
+63,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,0,30,Neutral,negation_or_contrast,negation_or_contrast,negation_or_contrast,negation_or_contrast
+318,Ilica Plaji,Beach/Coastal,1,Negative,0,27,Neutral,non_standard_language,non_standard_language,non_standard_language,non_standard_language
+555,Deniz Restaurant,Food/Gastronomy,2,Negative,0,30,Neutral,mixed_sentiment,neutral_boundary,mixed_sentiment,mixed_sentiment
+489,Scappi,Nightlife,1,Negative,0,162,Positive,sarcasm_irony,sarcasm_irony,sarcasm_irony,sarcasm_irony
+356,Ilica Plaji,Beach/Coastal,3,Neutral,0,28,Negative,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch
+84,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,0,36,Negative,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch
+454,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,0,39,Negative,neutral_boundary,rating_text_mismatch,neutral_boundary,neutral_boundary
+207,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,27,Negative,neutral_boundary,neutral_boundary,neutral_boundary,neutral_boundary
+215,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,32,Negative,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch
+202,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,82,Negative,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+136,Key Hotel,Family,3,Neutral,0,35,Negative,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch
+206,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,113,Negative,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+338,Ilica Plaji,Beach/Coastal,3,Neutral,0,154,Negative,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+572,Deniz Restaurant,Food/Gastronomy,3,Neutral,0,345,Negative,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch
+456,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,0,29,Negative,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch
+590,Deniz Restaurant,Food/Gastronomy,3,Neutral,0,128,Negative,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch
+582,Deniz Restaurant,Food/Gastronomy,3,Neutral,0,64,Positive,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+509,Scappi,Nightlife,3,Neutral,0,41,Positive,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+30,Izmir Wildlife Park,Nature,3,Neutral,0,119,Positive,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+204,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,21,Positive,non_standard_language,non_standard_language,non_standard_language,non_standard_language
+80,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,0,36,Positive,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch,rating_text_mismatch
+583,Deniz Restaurant,Food/Gastronomy,3,Neutral,0,22,Positive,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+137,Key Hotel,Family,3,Neutral,0,78,Positive,rating_text_mismatch,mixed_sentiment,rating_text_mismatch,rating_text_mismatch
+85,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,0,21,Positive,neutral_boundary,neutral_boundary,neutral_boundary,neutral_boundary
+574,Deniz Restaurant,Food/Gastronomy,3,Neutral,0,39,Positive,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+339,Ilica Plaji,Beach/Coastal,3,Neutral,0,52,Positive,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+417,Izmir Marriott Hotel,Family,3,Neutral,0,211,Positive,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+28,Izmir Wildlife Park,Nature,3,Neutral,0,68,Positive,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+54,Izmir Wildlife Park,Nature,5,Positive,0,168,Negative,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+424,Izmir Marriott Hotel,Family,4,Positive,0,28,Neutral,non_standard_language,non_standard_language,non_standard_language,non_standard_language
+248,Tavaci Recep Usta,Food/Gastronomy,5,Positive,0,39,Neutral,non_standard_language,non_standard_language,non_standard_language,non_standard_language
+375,Ilica Plaji,Beach/Coastal,4,Positive,0,68,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+393,Ilica Plaji,Beach/Coastal,5,Positive,0,49,Neutral,negation_or_contrast,no_clear_cause,negation_or_contrast,negation_or_contrast
+37,Izmir Wildlife Park,Nature,4,Positive,0,112,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+381,Ilica Plaji,Beach/Coastal,4,Positive,0,77,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+228,Tavaci Recep Usta,Food/Gastronomy,4,Positive,0,46,Neutral,neutral_boundary,neutral_boundary,neutral_boundary,neutral_boundary
+285,Ephesus,History/Culture,4,Positive,0,13,Neutral,negation_or_contrast,negation_or_contrast,negation_or_contrast,negation_or_contrast
+379,Ilica Plaji,Beach/Coastal,4,Positive,0,94,Neutral,mixed_sentiment,implicit_sentiment,mixed_sentiment,mixed_sentiment
+367,Ilica Plaji,Beach/Coastal,4,Positive,0,54,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment
+237,Tavaci Recep Usta,Food/Gastronomy,4,Positive,0,46,Neutral,mixed_sentiment,mixed_sentiment,mixed_sentiment,mixed_sentiment

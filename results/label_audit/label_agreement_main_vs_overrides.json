@@ -1,0 +1,122 @@
+{
+ "random_stratified_non_override": {
+  "n": 141,
+  "by_rating_label": {
+   "Negative": 50,
+   "Positive": 48,
+   "Neutral": 43
+  },
+  "A_vs_B": {
+   "pct": 85.8,
+   "kappa": 0.766,
+   "ci": [
+    0.67,
+    0.85
+   ]
+  },
+  "B(first author)_vs_study": {
+   "Negative": "42/50",
+   "Neutral": "17/43",
+   "Positive": "47/48"
+  },
+  "B_vs_study_breakdown_neutral": {
+   "Neutral": 17,
+   "Negative": 15,
+   "Positive": 11
+  },
+  "A_vs_study": {
+   "Negative": "49/50",
+   "Neutral": "10/43",
+   "Positive": "47/48"
+  },
+  "consensus_n": 121,
+  "consensus_vs_study": {
+   "Negative": "42/43",
+   "Neutral": "8/32",
+   "Positive": "46/46"
+  },
+  "consensus_neutral_breakdown": {
+   "Negative": 15,
+   "Positive": 9,
+   "Neutral": 8
+  },
+  "B(first author)_vs_study_overall": {
+   "pct": 75.2,
+   "kappa": 0.624,
+   "ci": [
+    0.52,
+    0.73
+   ]
+  },
+  "A_vs_study_overall": {
+   "pct": 75.2,
+   "kappa": 0.621
+  }
+ },
+ "overrides": {
+  "n": 8,
+  "rows": [
+   {
+    "Review_ID": 462,
+    "Star_Rating": 3,
+    "Final_Sentiment": "Negative",
+    "A": "Negative",
+    "B": "Neutral"
+   },
+   {
+    "Review_ID": 564,
+    "Star_Rating": 3,
+    "Final_Sentiment": "Negative",
+    "A": "Negative",
+    "B": "Neutral"
+   },
+   {
+    "Review_ID": 219,
+    "Star_Rating": 4,
+    "Final_Sentiment": "Neutral",
+    "A": "Positive",
+    "B": "Neutral"
+   },
+   {
+    "Review_ID": 460,
+    "Star_Rating": 3,
+    "Final_Sentiment": "Negative",
+    "A": "Negative",
+    "B": "Negative"
+   },
+   {
+    "Review_ID": 369,
+    "Star_Rating": 4,
+    "Final_Sentiment": "Neutral",
+    "A": "Neutral",
+    "B": "Neutral"
+   },
+   {
+    "Review_ID": 419,
+    "Star_Rating": 3,
+    "Final_Sentiment": "Negative",
+    "A": "Negative",
+    "B": "Neutral"
+   },
+   {
+    "Review_ID": 568,
+    "Star_Rating": 3,
+    "Final_Sentiment": "Negative",
+    "A": "Negative",
+    "B": "Negative"
+   },
+   {
+    "Review_ID": 351,
+    "Star_Rating": 3,
+    "Final_Sentiment": "Negative",
+    "A": "Negative",
+    "B": "Negative"
+   }
+  ],
+  "agreement_with_override_label": {
+   "A": "7/8",
+   "B(first author)": "5/8"
+  }
+ },
+ "note": "Main audit = 141 randomly drawn, non-override reviews (Review 420 excluded). Annotator A = human second annotator."
+}

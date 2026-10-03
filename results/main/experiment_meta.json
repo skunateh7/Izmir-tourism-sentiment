@@ -1,0 +1,55 @@
+{
+ "vocab_size": 3334,
+ "glove_coverage_of_train_vocab": 0.9528811524609844,
+ "oov_rate_test_tokens": 0.13631522896698617,
+ "hyperparameters": {
+  "common": {
+   "max_vocab": 8000,
+   "max_len": 100,
+   "embed_dim": 100,
+   "batch_size": 32,
+   "lr": 0.001,
+   "max_epochs": 40,
+   "patience": 8,
+   "optimizer": "Adam"
+  },
+  "cnn": {
+   "kernels": [
+    3,
+    4,
+    5
+   ],
+   "filters": 128,
+   "filters2": 64,
+   "spatial_dropout": 0.3,
+   "dense": [
+    128,
+    64
+   ],
+   "dropout": [
+    0.5,
+    0.4
+   ]
+  },
+  "bilstm": {
+   "units": [
+    64,
+    32
+   ],
+   "spatial_dropout": 0.2,
+   "dense": 32,
+   "dropout": [
+    0.4,
+    0.3
+   ]
+  }
+ },
+ "seeds": [
+  42,
+  7,
+  13,
+  99,
+  2024
+ ],
+ "runtime_seconds": 950
+}

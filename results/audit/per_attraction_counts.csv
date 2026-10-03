@@ -1,0 +1,15 @@
+Attraction_Category,Attraction_Name,Negative,Neutral,Positive,Total,Mean_Stars
+Beach/Coastal,Alsancak,2,8,10,20,3.65
+Beach/Coastal,Ilica Plaji,29,28,32,89,3.06
+Family,Izmir Marriott Hotel,18,8,20,46,3.02
+Family,Key Hotel,7,5,27,39,3.82
+Food/Gastronomy,Deniz Restaurant,39,26,8,73,2.36
+Food/Gastronomy,Reyhan Pastanesi,10,11,9,30,2.97
+Food/Gastronomy,Tavaci Recep Usta,30,22,48,100,3.27
+History/Culture,Ephesus,0,3,41,44,4.43
+History/Culture,Izmir Saat Kulesi (Clock Tower),11,15,24,50,3.56
+Nature,Izmir Wildlife Park,5,8,27,40,4.0
+Nightlife,Bios Bar,2,0,1,3,2.67
+Nightlife,Bostanli Meyhanesi,2,0,2,4,3.0
+Nightlife,Punt Ancient Pub,0,1,15,16,4.88
+Nightlife,Scappi,22,7,15,44,2.75

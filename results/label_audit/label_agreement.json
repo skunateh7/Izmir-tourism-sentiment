@@ -1,0 +1,155 @@
+{
+ "all_150": {
+  "n": 150,
+  "A_vs_B": {
+   "pct": 83.3,
+   "kappa": 0.73,
+   "kappa_ci": [
+    0.634,
+    0.815
+   ],
+   "weighted_kappa_linear": 0.817
+  },
+  "A_vs_study": {
+   "pct": 76.0,
+   "kappa": 0.633
+  },
+  "B_vs_study": {
+   "pct": 74.0,
+   "kappa": 0.607
+  },
+  "consensus_n": 125,
+  "consensus_vs_study": {
+   "pct": 80.0,
+   "kappa": 0.688
+  },
+  "consensus_confusion_rows_study_cols_consensus": [
+   [
+    45,
+    1,
+    0
+   ],
+   [
+    15,
+    9,
+    9
+   ],
+   [
+    0,
+    0,
+    46
+   ]
+  ],
+  "overrides_confirmed": "4/4 (consensus items among 8 overrides)",
+  "per_class_study_label_agreement_with_consensus": {
+   "Negative": 97.8,
+   "Neutral": 27.3,
+   "Positive": 100.0
+  },
+  "dist_A": {
+   "Negative": 76,
+   "Positive": 60,
+   "Neutral": 14
+  },
+  "dist_B": {
+   "Positive": 61,
+   "Negative": 60,
+   "Neutral": 29
+  }
+ },
+ "excl_mgmt_response_149": {
+  "n": 149,
+  "A_vs_B": {
+   "pct": 83.9,
+   "kappa": 0.738,
+   "kappa_ci": [
+    0.648,
+    0.825
+   ],
+   "weighted_kappa_linear": 0.822
+  },
+  "A_vs_study": {
+   "pct": 75.8,
+   "kappa": 0.63
+  },
+  "B_vs_study": {
+   "pct": 74.5,
+   "kappa": 0.614
+  },
+  "consensus_n": 125,
+  "consensus_vs_study": {
+   "pct": 80.0,
+   "kappa": 0.688
+  },
+  "consensus_confusion_rows_study_cols_consensus": [
+   [
+    45,
+    1,
+    0
+   ],
+   [
+    15,
+    9,
+    9
+   ],
+   [
+    0,
+    0,
+    46
+   ]
+  ],
+  "overrides_confirmed": "4/4 (consensus items among 8 overrides)",
+  "per_class_study_label_agreement_with_consensus": {
+   "Negative": 97.8,
+   "Neutral": 27.3,
+   "Positive": 100.0
+  },
+  "dist_A": {
+   "Negative": 76,
+   "Positive": 60,
+   "Neutral": 13
+  },
+  "dist_B": {
+   "Positive": 60,
+   "Negative": 60,
+   "Neutral": 29
+  }
+ },
+ "annotators": {
+  "A": "second annotator (human, not otherwise involved); used ChatGPT only to draft notes on labels already assigned - confirmed by the authors on 2026-10-01",
+  "B": "first author (human)"
+ },
+ "human_B_vs_study_excl420": {
+  "n": 149,
+  "pct": 74.5,
+  "kappa": 0.614,
+  "per_class_confirmed_pct": {
+   "Negative": 80.4,
+   "Neutral": 42.2,
+   "Positive": 97.9
+  },
+  "per_class_n": {
+   "Negative": 56,
+   "Positive": 48,
+   "Neutral": 45
+  },
+  "confusion_rows_study_cols_humanB": [
+   [
+    45,
+    9,
+    2
+   ],
+   [
+    15,
+    19,
+    11
+   ],
+   [
+    0,
+    1,
+    47
+   ]
+  ],
+  "overrides_confirmed": "5/8"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "best_model": "DistilBERT",
+ "pooled_errors_best": 152,
+ "error_pairs_best": {
+  "Negative->Neutral": 38,
+  "Neutral->Positive": 37,
+  "Neutral->Negative": 37,
+  "Positive->Neutral": 32,
+  "Positive->Negative": 4,
+  "Negative->Positive": 4
+ },
+ "sample_size": 50,
+ "taxonomy": {
+  "mixed_sentiment": "Both praise and complaint; overall verdict depends on weighting of aspects",
+  "neutral_boundary": "Mild/lukewarm or 'average' evaluation near the neutral boundary",
+  "negation_or_contrast": "Polarity reversed by negation or a contrastive clause ('but', 'however')",
+  "implicit_sentiment": "Sentiment implied by facts/events (prices, waiting, incidents) without evaluative words",
+  "rating_text_mismatch": "Text polarity clearly differs from the star-derived label",
+  "sarcasm_irony": "Literal wording opposite to intended meaning",
+  "short_or_uninformative": "Too short / generic to contain decisive cues",
+  "domain_vocabulary": "Decisive cue is rare/domain-specific vocabulary (dish names, local terms)",
+  "non_standard_language": "Machine-translation artefacts, misspellings or non-standard orthography (e.g. dotless \u0131)",
+  "no_clear_cause": "No identifiable linguistic cause"
+ },
+ "coded_taxonomy_counts": {
+  "mixed_sentiment": 24,
+  "rating_text_mismatch": 9,
+  "negation_or_contrast": 5,
+  "non_standard_language": 4,
+  "neutral_boundary": 4,
+  "implicit_sentiment": 3,
+  "sarcasm_irony": 1
+ },
+ "coded_primary_type_counts": {
+  "mixed_sentiment": 24,
+  "rating_text_mismatch": 9,
+  "negation_or_contrast": 5,
+  "non_standard_language": 4,
+  "neutral_boundary": 4,
+  "implicit_sentiment": 3,
+  "sarcasm_irony": 1
+ }
+}

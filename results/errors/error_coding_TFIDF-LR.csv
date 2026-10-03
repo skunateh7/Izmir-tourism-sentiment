@@ -1,0 +1,51 @@
+Review_ID,Attraction_Name,Attraction_Category,Star_Rating,Final_Sentiment,Manual_Override,Word_Count,Predicted,Error_Type
+450,Reyhan Pastanesi,Food/Gastronomy,1,Negative,0,29,Neutral,mixed_sentiment
+320,Ilica Plaji,Beach/Coastal,1,Negative,0,23,Neutral,implicit_sentiment
+559,Deniz Restaurant,Food/Gastronomy,2,Negative,0,26,Neutral,mixed_sentiment;negation_or_contrast
+325,Ilica Plaji,Beach/Coastal,1,Negative,0,62,Neutral,mixed_sentiment;non_standard_language
+329,Ilica Plaji,Beach/Coastal,2,Negative,0,25,Neutral,mixed_sentiment
+310,Ilica Plaji,Beach/Coastal,1,Negative,0,49,Neutral,negation_or_contrast
+328,Ilica Plaji,Beach/Coastal,2,Negative,0,87,Neutral,mixed_sentiment
+414,Izmir Marriott Hotel,Family,2,Negative,0,38,Positive,implicit_sentiment
+319,Ilica Plaji,Beach/Coastal,1,Negative,0,39,Positive,non_standard_language
+195,Tavaci Recep Usta,Food/Gastronomy,2,Negative,0,51,Positive,negation_or_contrast;mixed_sentiment
+62,Izmir Saat Kulesi (Clock Tower),History/Culture,2,Negative,0,51,Positive,implicit_sentiment;negation_or_contrast
+182,Tavaci Recep Usta,Food/Gastronomy,1,Negative,0,89,Positive,implicit_sentiment
+532,Deniz Restaurant,Food/Gastronomy,1,Negative,0,18,Positive,non_standard_language;implicit_sentiment
+25,Izmir Wildlife Park,Nature,2,Negative,0,97,Positive,mixed_sentiment
+333,Ilica Plaji,Beach/Coastal,2,Negative,0,25,Positive,implicit_sentiment;negation_or_contrast
+463,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,0,28,Negative,rating_text_mismatch
+202,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,82,Negative,mixed_sentiment
+208,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,52,Negative,mixed_sentiment
+206,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,113,Negative,mixed_sentiment
+572,Deniz Restaurant,Food/Gastronomy,3,Neutral,0,345,Negative,rating_text_mismatch
+197,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,38,Negative,non_standard_language
+346,Ilica Plaji,Beach/Coastal,3,Neutral,0,73,Negative,rating_text_mismatch
+348,Ilica Plaji,Beach/Coastal,3,Neutral,0,160,Negative,rating_text_mismatch
+219,Tavaci Recep Usta,Food/Gastronomy,4,Neutral,1,55,Negative,mixed_sentiment
+338,Ilica Plaji,Beach/Coastal,3,Neutral,0,154,Negative,mixed_sentiment
+135,Key Hotel,Family,3,Neutral,0,89,Negative,mixed_sentiment
+81,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,0,58,Positive,neutral_boundary
+344,Ilica Plaji,Beach/Coastal,3,Neutral,0,33,Positive,neutral_boundary
+80,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,0,36,Positive,rating_text_mismatch
+361,Ilica Plaji,Beach/Coastal,3,Neutral,0,23,Positive,implicit_sentiment
+417,Izmir Marriott Hotel,Family,3,Neutral,0,211,Positive,mixed_sentiment
+457,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,0,19,Positive,sarcasm_irony
+18,Alsancak,Beach/Coastal,3,Neutral,0,29,Positive,neutral_boundary
+86,Izmir Saat Kulesi (Clock Tower),History/Culture,3,Neutral,0,44,Positive,negation_or_contrast;mixed_sentiment
+455,Reyhan Pastanesi,Food/Gastronomy,3,Neutral,0,48,Positive,neutral_boundary
+363,Ilica Plaji,Beach/Coastal,3,Neutral,0,30,Positive,mixed_sentiment
+204,Tavaci Recep Usta,Food/Gastronomy,3,Neutral,0,21,Positive,non_standard_language;mixed_sentiment
+30,Izmir Wildlife Park,Nature,3,Neutral,0,119,Positive,mixed_sentiment
+267,Ephesus,History/Culture,3,Neutral,0,80,Positive,implicit_sentiment
+355,Ilica Plaji,Beach/Coastal,3,Neutral,0,20,Positive,negation_or_contrast
+16,Alsancak,Beach/Coastal,3,Neutral,0,29,Positive,neutral_boundary
+55,Izmir Wildlife Park,Nature,5,Positive,0,141,Negative,no_clear_cause
+394,Ilica Plaji,Beach/Coastal,5,Positive,0,42,Negative,negation_or_contrast
+237,Tavaci Recep Usta,Food/Gastronomy,4,Positive,0,46,Negative,mixed_sentiment
+368,Ilica Plaji,Beach/Coastal,4,Positive,0,22,Neutral,non_standard_language
+379,Ilica Plaji,Beach/Coastal,4,Positive,0,94,Neutral,implicit_sentiment
+285,Ephesus,History/Culture,4,Positive,0,13,Neutral,negation_or_contrast;short_or_uninformative
+234,Tavaci Recep Usta,Food/Gastronomy,4,Positive,0,23,Neutral,neutral_boundary
+228,Tavaci Recep Usta,Food/Gastronomy,4,Positive,0,46,Neutral,neutral_boundary
+5,Alsancak,Beach/Coastal,5,Positive,0,41,Neutral,neutral_boundary

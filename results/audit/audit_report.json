@@ -1,0 +1,67 @@
+{
+ "source_file": "Izmir_Tourist_Review_Cleaned.xlsx",
+ "rows_loaded": 599,
+ "duplicate_ids": 0,
+ "exact_duplicate_texts": 0,
+ "missing_text": 0,
+ "missing_rating": 0,
+ "ratings_out_of_range": 0,
+ "near_duplicate_pairs_cos_ge_0.80": 1,
+ "max_pairwise_cosine": 0.948,
+ "attractions_with_multiple_categories": [],
+ "n_attractions": 14,
+ "n_categories": 6,
+ "language_distribution": {
+  "en": 597,
+  "uncertain": 2
+ },
+ "non_ascii_reviews": 143,
+ "language_distribution_after_manual_check": {
+  "en": 599
+ },
+ "excluded_reviews": {
+  "347": "Truncated duplicate of Review 346 (same tourist review captured twice; cosine 0.948)."
+ },
+ "manual_overrides": 8,
+ "override_ids": [
+  219,
+  351,
+  369,
+  419,
+  460,
+  462,
+  564,
+  568
+ ],
+ "label_distribution": {
+  "Positive": 279,
+  "Negative": 177,
+  "Neutral": 142
+ },
+ "star_distribution": {
+  "1": 100,
+  "2": 71,
+  "3": 146,
+  "4": 112,
+  "5": 169
+ },
+ "word_count": {
+  "count": 598.0,
+  "mean": 60.0,
+  "std": 49.9,
+  "min": 6.0,
+  "25%": 28.0,
+  "50%": 44.0,
+  "75%": 74.8,
+  "max": 345.0
+ },
+ "very_short_reviews_lt_8_words": 4,
+ "frozen_file": "data/processed/reviews_publication_final.csv",
+ "frozen_rows": 598,
+ "frozen_sha256": "4aab37e64d57bcab9b7e875c056025ebc5b046597aef1e8bac83ac90118d425f",
+ "split_sizes": {
+  "train": 418,
+  "val": 90,
+  "test": 90
+ }
+}
