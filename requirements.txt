@@ -1,0 +1,14 @@
+tensorflow>=2.16
+scikit-learn>=1.4
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+statsmodels>=0.14
+scipy>=1.11
+gensim>=4.3
+vaderSentiment>=3.3.2
+openpyxl>=3.1
+# transformer step only (GPU recommended):
+# torch
+# transformers<5
+# accelerate
