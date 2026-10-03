@@ -7,6 +7,10 @@ and the app reads the same result files.
 
 ## Interactive app
 
+**Live app:** https://izmirtourismsentiment.streamlit.app/
+
+To run it locally:
+
 ```bash
 pip install -r app/requirements.txt
 streamlit run app/Home.py
