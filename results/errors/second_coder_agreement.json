@@ -1,0 +1,47 @@
+{
+ "coder2": "independent human second coder (blind to author and AI codes; no AI tools)",
+ "n_coded": 49,
+ "uncoded": "item 14 left blank with note \"I agree with the model\"",
+ "primary_agreement": {
+  "n": 49,
+  "agree": 21,
+  "pct": 42.9,
+  "kappa": 0.268,
+  "ci": [
+   0.11,
+   0.43
+  ]
+ },
+ "item14_as_rating_text_mismatch": {
+  "n": 50,
+  "agree": 22,
+  "pct": 44.0,
+  "kappa": 0.283,
+  "ci": [
+   0.12,
+   0.44
+  ]
+ },
+ "author_counts": {
+  "mixed_sentiment": 24,
+  "rating_text_mismatch": 9,
+  "negation_or_contrast": 5,
+  "neutral_boundary": 4,
+  "non_standard_language": 4,
+  "implicit_sentiment": 3,
+  "sarcasm_irony": 1
+ },
+ "coder2_counts": {
+  "mixed_sentiment": 14,
+  "rating_text_mismatch": 12,
+  "negation_or_contrast": 11,
+  "neutral_boundary": 7,
+  "non_standard_language": 2,
+  "short_or_uninformative": 1,
+  "sarcasm_irony": 1,
+  "implicit_sentiment": 1
+ },
+ "both_primary_mixed": 10,
+ "coder2_mixed_primary_or_secondary": 21,
+ "author_code_in_coder2_primary_or_secondary": 27
+}

@@ -1,0 +1,39 @@
+family,scheme,fold,C,ngram,cw,inner_macro_f1
+TFIDF-LR,random_5fold,fold,3.0,1-1,bal,0.6584
+TFIDF-LR,random_5fold,fold,3.0,1-2,bal,0.627
+TFIDF-LR,random_5fold,fold,1.0,1-1,bal,0.6475
+TFIDF-LR,random_5fold,fold,10.0,1-2,bal,0.6468
+TFIDF-LR,random_5fold,fold,1.0,1-2,bal,0.6761
+TFIDF-LR,leave_one_attraction_out,Alsancak,1.0,1-1,bal,0.6243
+TFIDF-LR,leave_one_attraction_out,Bios Bar,0.1,1-2,bal,0.6115
+TFIDF-LR,leave_one_attraction_out,Bostanli Meyhanesi,0.1,1-2,bal,0.6186
+TFIDF-LR,leave_one_attraction_out,Deniz Restaurant,0.3,1-2,bal,0.5993
+TFIDF-LR,leave_one_attraction_out,Ephesus,3.0,1-1,bal,0.6101
+TFIDF-LR,leave_one_attraction_out,Ilica Plaji,3.0,1-2,bal,0.6511
+TFIDF-LR,leave_one_attraction_out,Izmir Marriott Hotel,0.1,1-2,bal,0.6065
+TFIDF-LR,leave_one_attraction_out,Izmir Saat Kulesi (Clock Tower),0.3,1-2,bal,0.6348
+TFIDF-LR,leave_one_attraction_out,Izmir Wildlife Park,1.0,1-1,bal,0.6354
+TFIDF-LR,leave_one_attraction_out,Key Hotel,0.1,1-2,bal,0.6202
+TFIDF-LR,leave_one_attraction_out,Punt Ancient Pub,1.0,1-2,bal,0.6111
+TFIDF-LR,leave_one_attraction_out,Reyhan Pastanesi,10.0,1-2,bal,0.6129
+TFIDF-LR,leave_one_attraction_out,Scappi,0.3,1-1,bal,0.6088
+TFIDF-LR,leave_one_attraction_out,Tavaci Recep Usta,1.0,1-2,bal,0.6006
+TFIDF-SVM,random_5fold,fold,1.0,1-2,bal,0.6351
+TFIDF-SVM,random_5fold,fold,3.0,1-2,bal,0.6148
+TFIDF-SVM,random_5fold,fold,1.0,1-1,bal,0.6378
+TFIDF-SVM,random_5fold,fold,10.0,1-2,bal,0.644
+TFIDF-SVM,random_5fold,fold,10.0,1-2,bal,0.6666
+TFIDF-SVM,leave_one_attraction_out,Alsancak,3.0,1-2,bal,0.6052
+TFIDF-SVM,leave_one_attraction_out,Bios Bar,3.0,1-2,bal,0.6084
+TFIDF-SVM,leave_one_attraction_out,Bostanli Meyhanesi,1.0,1-2,bal,0.6079
+TFIDF-SVM,leave_one_attraction_out,Deniz Restaurant,3.0,1-1,bal,0.5755
+TFIDF-SVM,leave_one_attraction_out,Ephesus,0.3,1-2,bal,0.6041
+TFIDF-SVM,leave_one_attraction_out,Ilica Plaji,10.0,1-2,bal,0.6546
+TFIDF-SVM,leave_one_attraction_out,Izmir Marriott Hotel,0.3,1-1,bal,0.6005
+TFIDF-SVM,leave_one_attraction_out,Izmir Saat Kulesi (Clock Tower),0.3,1-2,bal,0.6087
+TFIDF-SVM,leave_one_attraction_out,Izmir Wildlife Park,0.3,1-2,bal,0.6214
+TFIDF-SVM,leave_one_attraction_out,Key Hotel,3.0,1-2,none,0.6154
+TFIDF-SVM,leave_one_attraction_out,Punt Ancient Pub,3.0,1-2,bal,0.6037
+TFIDF-SVM,leave_one_attraction_out,Reyhan Pastanesi,3.0,1-2,none,0.6185
+TFIDF-SVM,leave_one_attraction_out,Scappi,1.0,1-2,bal,0.597
+TFIDF-SVM,leave_one_attraction_out,Tavaci Recep Usta,0.3,1-1,bal,0.5857

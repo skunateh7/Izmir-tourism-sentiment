@@ -1,0 +1,173 @@
+{
+ "configs": [
+  {
+   "config": "lr=2e-05,cw=none",
+   "random_5fold_macro_f1": 0.690455432810907,
+   "random_5fold_ci": [
+    0.6528023176186819,
+    0.7258085452286119
+   ],
+   "leave_one_attraction_out_macro_f1": 0.6937639863719042,
+   "leave_one_attraction_out_ci": [
+    0.6540229549402083,
+    0.7301283261507239
+   ],
+   "drop_random_minus_loeo": {
+    "diff": -0.0033085535609971295,
+    "diff_ci95": [
+     -0.032096604482216046,
+     0.02415766829536888
+    ],
+    "p_diff_le_0": 0.6075
+   }
+  },
+  {
+   "config": "lr=2e-05,cw=bal",
+   "random_5fold_macro_f1": 0.7046064963403785,
+   "random_5fold_ci": [
+    0.666970359998362,
+    0.7392778747720092
+   ],
+   "leave_one_attraction_out_macro_f1": 0.7136499991916149,
+   "leave_one_attraction_out_ci": [
+    0.6758149966772966,
+    0.7492116569844511
+   ],
+   "drop_random_minus_loeo": {
+    "diff": -0.00904350285123634,
+    "diff_ci95": [
+     -0.0344421105541258,
+     0.015783585804365938
+    ],
+    "p_diff_le_0": 0.75
+   }
+  },
+  {
+   "config": "lr=5e-05,cw=none",
+   "random_5fold_macro_f1": 0.7194908515744102,
+   "random_5fold_ci": [
+    0.6826882734605144,
+    0.7537798344614848
+   ],
+   "leave_one_attraction_out_macro_f1": 0.7019730712757593,
+   "leave_one_attraction_out_ci": [
+    0.6641199776206546,
+    0.736307541586491
+   ],
+   "drop_random_minus_loeo": {
+    "diff": 0.01751778029865092,
+    "diff_ci95": [
+     -0.010626320782136704,
+     0.046237224309918216
+    ],
+    "p_diff_le_0": 0.117
+   }
+  },
+  {
+   "config": "lr=5e-05,cw=bal",
+   "random_5fold_macro_f1": 0.7336654644997056,
+   "random_5fold_ci": [
+    0.6974039568615995,
+    0.768820534493497
+   ],
+   "leave_one_attraction_out_macro_f1": 0.699492654127002,
+   "leave_one_attraction_out_ci": [
+    0.6614289303020876,
+    0.7337316831777607
+   ],
+   "drop_random_minus_loeo": {
+    "diff": 0.03417281037270359,
+    "diff_ci95": [
+     0.004528465117436787,
+     0.06346751167842059
+    ],
+    "p_diff_le_0": 0.0095
+   }
+  },
+  {
+   "config": "nested selection",
+   "random_5fold_macro_f1": 0.7151895463796328,
+   "random_5fold_ci": [
+    0.6785395013880559,
+    0.750986174434766
+   ],
+   "leave_one_attraction_out_macro_f1": 0.7012442863643923,
+   "leave_one_attraction_out_ci": [
+    0.6652618686298034,
+    0.7349531648915528
+   ],
+   "drop_random_minus_loeo": {
+    "diff": 0.013945260015240546,
+    "diff_ci95": [
+     -0.013709336988675413,
+     0.041366115805376726
+    ],
+    "p_diff_le_0": 0.1515
+   }
+  }
+ ],
+ "nested_choices": {
+  "random_5fold": {
+   "fold1": "lr=2e-05,cw=bal",
+   "fold2": "lr=5e-05,cw=bal",
+   "fold3": "lr=2e-05,cw=bal",
+   "fold4": "lr=5e-05,cw=none",
+   "fold5": "lr=5e-05,cw=none"
+  },
+  "leave_one_attraction_out": {
+   "Alsancak": "lr=2e-05,cw=bal",
+   "Bios Bar": "lr=2e-05,cw=bal",
+   "Bostanli Meyhanesi": "lr=2e-05,cw=bal",
+   "Deniz Restaurant": "lr=5e-05,cw=bal",
+   "Ephesus": "lr=5e-05,cw=none",
+   "Ilica Plaji": "lr=5e-05,cw=bal",
+   "Izmir Marriott Hotel": "lr=5e-05,cw=bal",
+   "Izmir Saat Kulesi (Clock Tower)": "lr=2e-05,cw=bal",
+   "Izmir Wildlife Park": "lr=5e-05,cw=none",
+   "Key Hotel": "lr=2e-05,cw=bal",
+   "Punt Ancient Pub": "lr=5e-05,cw=none",
+   "Reyhan Pastanesi": "lr=5e-05,cw=bal",
+   "Scappi": "lr=5e-05,cw=bal",
+   "Tavaci Recep Usta": "lr=2e-05,cw=bal"
+  }
+ },
+ "nested_distilbert_vs_nested_tfidf": {
+  "random_5fold: nested DistilBERT - nested TFIDF-LR": {
+   "diff": 0.05824424784146409,
+   "diff_ci95": [
+    0.01726717209400508,
+    0.10022348733779841
+   ],
+   "p_diff_le_0": 0.0045
+  },
+  "random_5fold: nested DistilBERT - nested TFIDF-SVM": {
+   "diff": 0.07786501634035103,
+   "diff_ci95": [
+    0.03594078168379315,
+    0.1220706594780447
+   ],
+   "p_diff_le_0": 0.0
+  },
+  "leave_one_attraction_out: nested DistilBERT - nested TFIDF-LR": {
+   "diff": 0.0976389958739271,
+   "diff_ci95": [
+    0.0539699555986024,
+    0.13787494219206137
+   ],
+   "p_diff_le_0": 0.0
+  },
+  "leave_one_attraction_out: nested DistilBERT - nested TFIDF-SVM": {
+   "diff": 0.10589460383240867,
+   "diff_ci95": [
+    0.06504849631133809,
+    0.14737572782275526
+   ],
+   "p_diff_le_0": 0.0
+  }
+ },
+ "per_entity_acc_range_across_configs": {
+  "median": 0.036666666666666625,
+  "max": 0.09999999999999998
+ },
+ "note": "inner validation = 15% stratified split of the outer-fold training reviews (training entities only); 3 seeds per config; probabilities averaged over seeds"
+}
