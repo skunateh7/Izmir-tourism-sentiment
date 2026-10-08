@@ -1,0 +1,22 @@
+{
+ "review_420": "hotel-management reply (Izmir Marriott Hotel, 3 stars, Neutral); assigned to topic 3 (food quality & value)",
+ "overall_topic_share_change_pp": {
+  "sample_max": 0.23,
+  "reweighted_max": 0.06
+ },
+ "service_plus_food_share": {
+  "sample": [
+   60.8,
+   60.7
+  ],
+  "reweighted": [
+   52.6,
+   52.5
+  ]
+ },
+ "accommodation_reweighted_service_share": [
+  70.1,
+  71.5
+ ],
+ "destination_level_results": "unaffected (computed from rating histograms)"
+}

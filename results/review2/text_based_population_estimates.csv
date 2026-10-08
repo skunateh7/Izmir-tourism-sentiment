@@ -1,0 +1,64 @@
+level,unit,label_source,rating_Negative,rating_Neutral,rating_Positive,text_Negative,text_Neutral,text_Positive,text_Negative_lo,text_Neutral_lo,text_Positive_lo,text_Negative_hi,text_Neutral_hi,text_Positive_hi
+Overall,All 14 entities,A,5.3,7.5,87.2,8.9,3.7,87.5,7.7,1.2,82.7,10.0,8.4,90.1
+Category,Beach/Coastal,A,5.6,10.2,84.2,10.5,4.2,85.3,8.9,1.5,80.6,12.0,8.9,88.2
+Category,Family,A,2.2,1.1,96.7,2.7,2.3,95.0,2.5,0.2,90.1,2.8,7.3,97.2
+Category,Food/Gastronomy,A,9.4,10.0,80.7,14.0,4.2,81.8,12.5,1.6,77.3,15.5,8.7,84.6
+Category,History/Culture,A,1.6,8.4,90.0,5.6,3.9,90.5,4.3,1.2,85.6,6.9,8.8,93.3
+Category,Nature,A,2.9,6.0,91.0,5.8,3.4,90.8,4.9,0.9,86.0,6.8,8.4,93.4
+Category,Nightlife,A,10.2,3.2,86.6,11.5,2.8,85.7,10.9,0.6,81.2,12.1,7.4,87.9
+Attraction,Alsancak,A,1.6,6.2,92.2,4.6,3.4,92.0,3.6,0.9,87.1,5.5,8.5,94.6
+Attraction,Ilica Plaji,A,8.2,12.8,79.0,14.3,4.8,81.0,12.3,2.0,76.5,16.2,9.3,84.0
+Attraction,Izmir Marriott Hotel,A,2.1,0.7,97.2,2.4,2.2,95.3,2.3,0.1,90.4,2.6,7.3,97.4
+Attraction,Key Hotel,A,2.3,2.1,95.6,3.3,2.5,94.2,3.0,0.3,89.2,3.6,7.5,96.4
+Attraction,Deniz Restaurant,A,11.6,12.1,76.3,17.3,4.6,78.1,15.4,1.9,73.8,19.1,9.0,81.0
+Attraction,Reyhan Pastanesi,A,4.9,7.0,88.1,8.2,3.6,88.2,7.1,1.1,83.4,9.3,8.4,90.8
+Attraction,Tavaci Recep Usta,A,12.5,11.7,75.7,18.0,4.6,77.4,16.2,1.9,73.2,19.8,8.9,80.3
+Attraction,Ephesus,A,0.0,0.7,99.3,0.3,2.2,97.5,0.2,0.1,92.4,0.4,7.3,99.6
+Attraction,Izmir Saat Kulesi (Clock Tower),A,2.6,13.4,84.0,9.1,4.9,86.0,7.0,1.9,81.3,11.1,9.7,89.2
+Attraction,Izmir Wildlife Park,A,2.9,6.0,91.0,5.8,3.4,90.8,4.9,0.9,86.0,6.8,8.4,93.4
+Attraction,Bios Bar,A,37.5,4.2,58.3,38.8,2.9,58.3,37.0,0.8,55.2,40.0,6.5,60.0
+Attraction,Bostanli Meyhanesi,A,28.2,5.1,66.7,30.1,3.1,66.7,28.7,0.9,63.1,31.3,7.0,68.7
+Attraction,Punt Ancient Pub,A,1.3,4.0,94.7,3.3,2.9,93.8,2.6,0.6,88.9,3.9,8.0,96.2
+Attraction,Scappi,A,8.0,2.8,89.2,9.2,2.7,88.1,8.7,0.5,83.5,9.7,7.4,90.3
+Overall,All 14 entities,B,5.3,7.5,87.2,7.1,5.4,87.5,5.9,2.7,83.0,8.3,9.9,90.1
+Category,Beach/Coastal,B,5.6,10.2,84.2,8.3,6.5,85.3,6.8,3.5,80.9,9.9,10.9,88.1
+Category,Family,B,2.2,1.1,96.7,2.2,2.7,95.1,1.9,0.5,90.3,2.5,7.5,97.3
+Category,Food/Gastronomy,B,9.4,10.0,80.7,11.3,6.7,81.9,9.6,3.7,77.7,13.1,11.0,84.7
+Category,History/Culture,B,1.6,8.4,90.0,4.2,5.4,90.4,3.0,2.6,85.8,5.5,10.0,93.1
+Category,Nature,B,2.9,6.0,91.0,4.6,4.6,90.8,3.7,2.1,86.1,5.5,9.2,93.3
+Category,Nightlife,B,10.2,3.2,86.6,9.7,4.3,86.0,8.5,1.7,81.7,10.8,8.7,88.4
+Attraction,Alsancak,B,1.6,6.2,92.2,3.5,4.6,91.9,2.6,2.0,87.3,4.4,9.2,94.5
+Attraction,Ilica Plaji,B,8.2,12.8,79.0,11.3,7.7,81.0,9.4,4.5,76.8,13.3,12.0,84.0
+Attraction,Izmir Marriott Hotel,B,2.1,0.7,97.2,2.0,2.6,95.4,1.8,0.4,90.5,2.3,7.3,97.5
+Attraction,Key Hotel,B,2.3,2.1,95.6,2.7,3.1,94.2,2.3,0.8,89.4,3.1,7.8,96.4
+Attraction,Deniz Restaurant,B,11.6,12.1,76.3,14.0,7.8,78.2,11.9,4.6,74.2,16.1,12.0,81.2
+Attraction,Reyhan Pastanesi,B,4.9,7.0,88.1,6.6,5.2,88.3,5.5,2.5,83.7,7.7,9.7,90.8
+Attraction,Tavaci Recep Usta,B,12.5,11.7,75.7,14.6,7.7,77.7,12.5,4.5,73.6,16.8,11.9,80.6
+Attraction,Ephesus,B,0.0,0.7,99.3,0.2,2.3,97.4,0.1,0.2,92.5,0.3,7.3,99.6
+Attraction,Izmir Saat Kulesi (Clock Tower),B,2.6,13.4,84.0,6.8,7.4,85.8,4.9,4.2,81.4,8.8,11.9,89.0
+Attraction,Izmir Wildlife Park,B,2.9,6.0,91.0,4.6,4.6,90.8,3.7,2.1,86.1,5.5,9.2,93.3
+Attraction,Bios Bar,B,37.5,4.2,58.3,33.0,7.4,59.7,29.0,3.5,56.3,36.9,11.8,62.7
+Attraction,Bostanli Meyhanesi,B,28.2,5.1,66.7,25.5,6.8,67.7,22.4,3.4,64.2,28.4,11.0,70.4
+Attraction,Punt Ancient Pub,B,1.3,4.0,94.7,2.5,3.7,93.8,1.9,1.3,89.0,3.1,8.4,96.2
+Attraction,Scappi,B,8.0,2.8,89.2,7.7,3.9,88.4,6.8,1.4,83.9,8.6,8.4,90.7
+Overall,All 14 entities,agreed,5.3,7.5,87.2,8.7,2.0,89.3,7.3,0.9,88.2,10.1,3.2,90.6
+Category,Beach/Coastal,agreed,5.6,10.2,84.2,10.3,2.7,87.1,8.4,1.2,85.5,12.1,4.3,88.7
+Category,Family,agreed,2.2,1.1,96.7,2.6,0.3,97.1,2.4,0.1,96.9,2.8,0.5,97.2
+Category,Food/Gastronomy,agreed,9.4,10.0,80.7,13.8,2.7,83.5,11.9,1.2,82.0,15.6,4.3,85.1
+Category,History/Culture,agreed,1.6,8.4,90.0,5.5,2.1,92.4,3.9,1.0,91.1,7.0,3.5,93.8
+Category,Nature,agreed,2.9,6.0,91.0,5.7,1.6,92.7,4.6,0.7,91.8,6.8,2.5,93.7
+Category,Nightlife,agreed,10.2,3.2,86.6,11.4,1.0,87.5,10.7,0.5,87.0,12.1,1.8,88.1
+Attraction,Alsancak,agreed,1.6,6.2,92.2,4.4,1.6,94.0,3.3,0.7,93.0,5.6,2.6,95.0
+Attraction,Ilica Plaji,agreed,8.2,12.8,79.0,14.0,3.4,82.6,11.6,1.5,80.7,16.3,5.4,84.8
+Attraction,Izmir Marriott Hotel,agreed,2.1,0.7,97.2,2.4,0.2,97.4,2.2,0.1,97.2,2.6,0.4,97.5
+Attraction,Key Hotel,agreed,2.3,2.1,95.6,3.2,0.6,96.2,2.8,0.3,95.8,3.6,0.9,96.5
+Attraction,Deniz Restaurant,agreed,11.6,12.1,76.3,17.0,3.3,79.7,14.8,1.5,77.8,19.2,5.3,81.7
+Attraction,Reyhan Pastanesi,agreed,4.9,7.0,88.1,8.1,1.9,90.1,6.8,0.8,89.0,9.3,3.0,91.2
+Attraction,Tavaci Recep Usta,agreed,12.5,11.7,75.7,17.7,3.2,79.0,15.6,1.5,77.2,19.9,5.1,81.0
+Attraction,Ephesus,agreed,0.0,0.7,99.3,0.3,0.2,99.5,0.2,0.1,99.4,0.4,0.3,99.6
+Attraction,Izmir Saat Kulesi (Clock Tower),agreed,2.6,13.4,84.0,8.8,3.4,87.8,6.3,1.5,85.7,11.2,5.6,90.0
+Attraction,Izmir Wildlife Park,agreed,2.9,6.0,91.0,5.7,1.6,92.7,4.6,0.7,91.8,6.8,2.5,93.7
+Attraction,Bios Bar,agreed,37.5,4.2,58.3,38.6,1.9,59.5,36.4,0.6,58.9,40.0,4.1,60.2
+Attraction,Bostanli Meyhanesi,agreed,28.2,5.1,66.7,30.0,1.9,68.1,28.2,0.7,67.3,31.3,3.7,69.0
+Attraction,Punt Ancient Pub,agreed,1.3,4.0,94.7,3.2,1.0,95.8,2.4,0.5,95.2,3.9,1.7,96.5
+Attraction,Scappi,agreed,8.0,2.8,89.2,9.1,0.9,90.0,8.5,0.4,89.6,9.7,1.5,90.5

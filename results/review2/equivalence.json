@@ -1,0 +1,222 @@
+{
+ "margin": 0.05,
+ "B": 4000,
+ "rows": [
+  {
+   "model": "TFIDF-LR",
+   "protocol": "fixed",
+   "random_cv": 0.6272826164,
+   "loeo": 0.5963371083,
+   "drop": 0.0309455081,
+   "ci95_review": [
+    -0.0032085234,
+    0.0649498853
+   ],
+   "ci90_review": [
+    0.0021758954,
+    0.0591418749
+   ],
+   "tost_equivalent_review": false,
+   "smallest_margin_review": 0.0591418749,
+   "ci95_entity": [
+    0.0009765219,
+    0.060315694
+   ],
+   "ci90_entity": [
+    0.0067080517,
+    0.0547341978
+   ],
+   "tost_equivalent_entity": false,
+   "smallest_margin_entity": 0.0547341978
+  },
+  {
+   "model": "TFIDF-SVM",
+   "protocol": "fixed",
+   "random_cv": 0.6246116157,
+   "loeo": 0.5935266917,
+   "drop": 0.031084924,
+   "ci95_review": [
+    -0.0019774029,
+    0.065137833
+   ],
+   "ci90_review": [
+    0.0031309175,
+    0.0590569593
+   ],
+   "tost_equivalent_review": false,
+   "smallest_margin_review": 0.0590569593,
+   "ci95_entity": [
+    -0.0035721681,
+    0.0629034416
+   ],
+   "ci90_entity": [
+    0.0023582167,
+    0.0571090066
+   ],
+   "tost_equivalent_entity": false,
+   "smallest_margin_entity": 0.0571090066
+  },
+  {
+   "model": "CNN",
+   "protocol": "fixed",
+   "random_cv": 0.5924823833,
+   "loeo": 0.5725443967,
+   "drop": 0.0199379866,
+   "ci95_review": [
+    -0.023269406,
+    0.0643175878
+   ],
+   "ci90_review": [
+    -0.0162026405,
+    0.0563626753
+   ],
+   "tost_equivalent_review": false,
+   "smallest_margin_review": 0.0563626753,
+   "ci95_entity": [
+    -0.0197469535,
+    0.0478140184
+   ],
+   "ci90_entity": [
+    -0.0123185488,
+    0.0439399545
+   ],
+   "tost_equivalent_entity": true,
+   "smallest_margin_entity": 0.0439399545
+  },
+  {
+   "model": "BiLSTM",
+   "protocol": "fixed",
+   "random_cv": 0.5680706789,
+   "loeo": 0.5613981611,
+   "drop": 0.0066725178,
+   "ci95_review": [
+    -0.0350842372,
+    0.0487886213
+   ],
+   "ci90_review": [
+    -0.0287153037,
+    0.0413529552
+   ],
+   "tost_equivalent_review": true,
+   "smallest_margin_review": 0.0413529552,
+   "ci95_entity": [
+    -0.046043545,
+    0.0606041381
+   ],
+   "ci90_entity": [
+    -0.0377199688,
+    0.0530235986
+   ],
+   "tost_equivalent_entity": false,
+   "smallest_margin_entity": 0.0530235986
+  },
+  {
+   "model": "DistilBERT",
+   "protocol": "fixed",
+   "random_cv": 0.7046064963,
+   "loeo": 0.7136499992,
+   "drop": -0.0090435029,
+   "ci95_review": [
+    -0.0344518531,
+    0.0154377232
+   ],
+   "ci90_review": [
+    -0.030464473,
+    0.0112174253
+   ],
+   "tost_equivalent_review": true,
+   "smallest_margin_review": 0.030464473,
+   "ci95_entity": [
+    -0.0199646885,
+    0.002697814
+   ],
+   "ci90_entity": [
+    -0.0183026089,
+    0.0008387045
+   ],
+   "tost_equivalent_entity": true,
+   "smallest_margin_entity": 0.0183026089
+  },
+  {
+   "model": "TFIDF-LR",
+   "protocol": "nested",
+   "random_cv": 0.6569452985,
+   "loeo": 0.6036052905,
+   "drop": 0.053340008,
+   "ci95_review": [
+    0.0171895542,
+    0.0894124974
+   ],
+   "ci90_review": [
+    0.0229604827,
+    0.0824976039
+   ],
+   "tost_equivalent_review": false,
+   "smallest_margin_review": 0.0824976039,
+   "ci95_entity": [
+    0.0095674128,
+    0.1023539003
+   ],
+   "ci90_entity": [
+    0.0164456096,
+    0.0943066831
+   ],
+   "tost_equivalent_entity": false,
+   "smallest_margin_entity": 0.0943066831
+  },
+  {
+   "model": "TFIDF-SVM",
+   "protocol": "nested",
+   "random_cv": 0.63732453,
+   "loeo": 0.5953496825,
+   "drop": 0.0419748475,
+   "ci95_review": [
+    0.0042506125,
+    0.0810210318
+   ],
+   "ci90_review": [
+    0.0095676287,
+    0.0736028635
+   ],
+   "tost_equivalent_review": false,
+   "smallest_margin_review": 0.0736028635,
+   "ci95_entity": [
+    0.0013794676,
+    0.0747946775
+   ],
+   "ci90_entity": [
+    0.0087634271,
+    0.0687567504
+   ],
+   "tost_equivalent_entity": false,
+   "smallest_margin_entity": 0.0687567504
+  },
+  {
+   "model": "DistilBERT",
+   "protocol": "nested",
+   "random_cv": 0.7151895464,
+   "loeo": 0.7012442864,
+   "drop": 0.01394526,
+   "ci95_review": [
+    -0.0138702986,
+    0.0419032937
+   ],
+   "ci90_review": [
+    -0.0098235467,
+    0.0376265939
+   ],
+   "tost_equivalent_review": true,
+   "smallest_margin_review": 0.0376265939,
+   "ci95_entity": [
+    -0.0135721248,
+    0.045028809
+   ],
+   "ci90_entity": [
+    -0.0099694317,
+    0.0404891278
+   ],
+   "tost_equivalent_entity": true,
+   "smallest_margin_entity": 0.0404891278
+  }
+ ]
+}

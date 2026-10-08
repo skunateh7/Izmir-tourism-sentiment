@@ -1,0 +1,28 @@
+{
+ "n_entities": 14,
+ "category_sizes": {
+  "Nightlife": 4,
+  "Food/Gastronomy": 3,
+  "Beach/Coastal": 2,
+  "Family": 2,
+  "History/Culture": 2,
+  "Nature": 1
+ },
+ "n_perm": 20000,
+ "neg_unweighted": {
+  "stat": 0.004744548329671146,
+  "p": 0.35068246587670615
+ },
+ "neg_weighted_by_ratings": {
+  "stat": 0.001109904877840103,
+  "p": 0.25228738563071845
+ },
+ "net_unweighted": {
+  "stat": 0.01850048772519583,
+  "p": 0.4367781610919454
+ },
+ "net_weighted_by_ratings": {
+  "stat": 0.007894450772653551,
+  "p": 0.3898305084745763
+ }
+}

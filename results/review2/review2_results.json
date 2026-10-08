@@ -1,0 +1,454 @@
+{
+ "a_text_based_estimate": {
+  "audit_n": 141,
+  "agreed_n": 121,
+  "P_text_given_rating_agreed": {
+   "Negative": {
+    "Negative": 0.977,
+    "Neutral": 0.023,
+    "Positive": 0.0
+   },
+   "Neutral": {
+    "Negative": 0.469,
+    "Neutral": 0.25,
+    "Positive": 0.281
+   },
+   "Positive": {
+    "Negative": 0.0,
+    "Neutral": 0.0,
+    "Positive": 1.0
+   }
+  },
+  "overall": [
+   {
+    "level": "Overall",
+    "unit": "All 14 entities",
+    "label_source": "A",
+    "rating_Negative": 5.3,
+    "rating_Neutral": 7.5,
+    "rating_Positive": 87.2,
+    "text_Negative": 8.9,
+    "text_Neutral": 3.7,
+    "text_Positive": 87.5,
+    "text_Negative_lo": 7.7,
+    "text_Neutral_lo": 1.2,
+    "text_Positive_lo": 82.7,
+    "text_Negative_hi": 10.0,
+    "text_Neutral_hi": 8.4,
+    "text_Positive_hi": 90.1
+   },
+   {
+    "level": "Overall",
+    "unit": "All 14 entities",
+    "label_source": "B",
+    "rating_Negative": 5.3,
+    "rating_Neutral": 7.5,
+    "rating_Positive": 87.2,
+    "text_Negative": 7.1,
+    "text_Neutral": 5.4,
+    "text_Positive": 87.5,
+    "text_Negative_lo": 5.9,
+    "text_Neutral_lo": 2.7,
+    "text_Positive_lo": 83.0,
+    "text_Negative_hi": 8.3,
+    "text_Neutral_hi": 9.9,
+    "text_Positive_hi": 90.1
+   },
+   {
+    "level": "Overall",
+    "unit": "All 14 entities",
+    "label_source": "agreed",
+    "rating_Negative": 5.3,
+    "rating_Neutral": 7.5,
+    "rating_Positive": 87.2,
+    "text_Negative": 8.7,
+    "text_Neutral": 2.0,
+    "text_Positive": 89.3,
+    "text_Negative_lo": 7.3,
+    "text_Neutral_lo": 0.9,
+    "text_Positive_lo": 88.2,
+    "text_Negative_hi": 10.1,
+    "text_Neutral_hi": 3.2,
+    "text_Positive_hi": 90.6
+   }
+  ],
+  "spearman_rating_vs_text_net_by_attraction": 0.9912087912087912,
+  "assumption": "P(text sentiment | rating group) pooled across attractions"
+ },
+ "b_negative_only": {
+  "n_negative": 177,
+  "n_neutral": 142,
+  "main_topic_shares_pct": {
+   "Beach conditions & crowding": {
+    "Negative+Neutral": 20.4,
+    "Negative only": 18.1,
+    "Neutral only": 23.2
+   },
+   "Food quality & value for money": {
+    "Negative+Neutral": 27.0,
+    "Negative only": 24.3,
+    "Neutral only": 30.3
+   },
+   "Public-space setting (heterogeneous)": {
+    "Negative+Neutral": 18.8,
+    "Negative only": 15.3,
+    "Neutral only": 23.2
+   },
+   "Service encounter & staff": {
+    "Negative+Neutral": 33.9,
+    "Negative only": 42.4,
+    "Neutral only": 23.2
+   }
+  },
+  "refit_k4_negative_only": [
+   {
+    "main_topic": "Service encounter & staff",
+    "cosine_with_main": 0.869,
+    "top_terms_negative_only": [
+     "table",
+     "waiter",
+     "ordered",
+     "menu",
+     "came",
+     "order",
+     "served",
+     "food",
+     "ask",
+     "wine"
+    ],
+    "share_pct": 27.1
+   },
+   {
+    "main_topic": "Beach conditions & crowding",
+    "cosine_with_main": 0.106,
+    "top_terms_negative_only": [
+     "room",
+     "breakfast",
+     "street",
+     "noise",
+     "experience",
+     "rooms",
+     "staff",
+     "asked",
+     "day",
+     "view"
+    ],
+    "share_pct": 17.5
+   },
+   {
+    "main_topic": "Public-space setting (heterogeneous)",
+    "cosine_with_main": 0.803,
+    "top_terms_negative_only": [
+     "people",
+     "area",
+     "water",
+     "sand",
+     "animals",
+     "sea",
+     "town",
+     "need",
+     "crowded",
+     "square"
+    ],
+    "share_pct": 24.3
+   },
+   {
+    "main_topic": "Food quality & value for money",
+    "cosine_with_main": 0.856,
+    "top_terms_negative_only": [
+     "service",
+     "food",
+     "taste",
+     "quality",
+     "expensive",
+     "price",
+     "fish",
+     "service food",
+     "tasteless",
+     "years"
+    ],
+    "share_pct": 31.1
+   }
+  ],
+  "refit_assignment_agreement_with_main": 0.525,
+  "refit_ari_with_main": 0.287,
+  "coherence_negative_only": [
+   {
+    "k": 3,
+    "c_v": 0.4714
+   },
+   {
+    "k": 4,
+    "c_v": 0.5426
+   },
+   {
+    "k": 5,
+    "c_v": 0.5054
+   },
+   {
+    "k": 6,
+    "c_v": 0.5157
+   },
+   {
+    "k": 7,
+    "c_v": 0.5094
+   },
+   {
+    "k": 8,
+    "c_v": 0.5332
+   },
+   {
+    "k": 9,
+    "c_v": 0.5123
+   },
+   {
+    "k": 10,
+    "c_v": 0.5193
+   }
+  ]
+ },
+ "c_stability": {
+  "n_inits_per_k": 20,
+  "init": "random",
+  "rows": [
+   {
+    "k": 3,
+    "c_v_reference": 0.504,
+    "c_v_mean": 0.555,
+    "c_v_sd": 0.052,
+    "c_v_min": 0.504,
+    "c_v_max": 0.606,
+    "matched_cosine_vs_reference_mean": 0.816,
+    "matched_cosine_vs_reference_min": 0.633,
+    "ari_vs_reference_mean": 0.644,
+    "ari_vs_reference_min": 0.342,
+    "pairwise_ari_mean": 0.654,
+    "n_runs_all_topics_cos_ge_0.9": null
+   },
+   {
+    "k": 4,
+    "c_v_reference": 0.508,
+    "c_v_mean": 0.504,
+    "c_v_sd": 0.02,
+    "c_v_min": 0.42,
+    "c_v_max": 0.508,
+    "matched_cosine_vs_reference_mean": 0.986,
+    "matched_cosine_vs_reference_min": 0.718,
+    "ari_vs_reference_mean": 0.853,
+    "ari_vs_reference_min": 0.446,
+    "pairwise_ari_mean": 0.859,
+    "n_runs_all_topics_cos_ge_0.9": 19.0
+   },
+   {
+    "k": 5,
+    "c_v_reference": 0.46,
+    "c_v_mean": 0.49,
+    "c_v_sd": 0.035,
+    "c_v_min": 0.46,
+    "c_v_max": 0.554,
+    "matched_cosine_vs_reference_mean": 0.895,
+    "matched_cosine_vs_reference_min": 0.784,
+    "ari_vs_reference_mean": 0.711,
+    "ari_vs_reference_min": 0.474,
+    "pairwise_ari_mean": 0.683,
+    "n_runs_all_topics_cos_ge_0.9": null
+   },
+   {
+    "k": 6,
+    "c_v_reference": 0.507,
+    "c_v_mean": 0.495,
+    "c_v_sd": 0.037,
+    "c_v_min": 0.436,
+    "c_v_max": 0.543,
+    "matched_cosine_vs_reference_mean": 0.883,
+    "matched_cosine_vs_reference_min": 0.787,
+    "ari_vs_reference_mean": 0.639,
+    "ari_vs_reference_min": 0.441,
+    "pairwise_ari_mean": 0.627,
+    "n_runs_all_topics_cos_ge_0.9": null
+   },
+   {
+    "k": 7,
+    "c_v_reference": 0.499,
+    "c_v_mean": 0.477,
+    "c_v_sd": 0.023,
+    "c_v_min": 0.45,
+    "c_v_max": 0.523,
+    "matched_cosine_vs_reference_mean": 0.86,
+    "matched_cosine_vs_reference_min": 0.724,
+    "ari_vs_reference_mean": 0.619,
+    "ari_vs_reference_min": 0.383,
+    "pairwise_ari_mean": 0.607,
+    "n_runs_all_topics_cos_ge_0.9": null
+   },
+   {
+    "k": 8,
+    "c_v_reference": 0.488,
+    "c_v_mean": 0.49,
+    "c_v_sd": 0.021,
+    "c_v_min": 0.454,
+    "c_v_max": 0.53,
+    "matched_cosine_vs_reference_mean": 0.883,
+    "matched_cosine_vs_reference_min": 0.735,
+    "ari_vs_reference_mean": 0.596,
+    "ari_vs_reference_min": 0.391,
+    "pairwise_ari_mean": 0.607,
+    "n_runs_all_topics_cos_ge_0.9": null
+   },
+   {
+    "k": 9,
+    "c_v_reference": 0.481,
+    "c_v_mean": 0.486,
+    "c_v_sd": 0.021,
+    "c_v_min": 0.445,
+    "c_v_max": 0.529,
+    "matched_cosine_vs_reference_mean": 0.96,
+    "matched_cosine_vs_reference_min": 0.874,
+    "ari_vs_reference_mean": 0.682,
+    "ari_vs_reference_min": 0.53,
+    "pairwise_ari_mean": 0.717,
+    "n_runs_all_topics_cos_ge_0.9": null
+   },
+   {
+    "k": 10,
+    "c_v_reference": 0.506,
+    "c_v_mean": 0.496,
+    "c_v_sd": 0.014,
+    "c_v_min": 0.464,
+    "c_v_max": 0.511,
+    "matched_cosine_vs_reference_mean": 0.913,
+    "matched_cosine_vs_reference_min": 0.769,
+    "ari_vs_reference_mean": 0.612,
+    "ari_vs_reference_min": 0.412,
+    "pairwise_ari_mean": 0.623,
+    "n_runs_all_topics_cos_ge_0.9": null
+   }
+  ],
+  "k4_per_topic": {
+   "per_topic_min_cosine": {
+    "Service encounter & staff": 0.816,
+    "Beach conditions & crowding": 0.952,
+    "Public-space setting (heterogeneous)": 0.977,
+    "Food quality & value for money": 0.127
+   },
+   "per_topic_mean_cosine": {
+    "Service encounter & staff": 0.991,
+    "Beach conditions & crowding": 0.998,
+    "Public-space setting (heterogeneous)": 0.999,
+    "Food quality & value for money": 0.956
+   },
+   "n_runs_all_topics_cos_ge_0.9": 19
+  }
+ },
+ "d_within_rating": {
+  "topic_shares_by_star": {
+   "1": {
+    "Beach conditions & crowding": 19.0,
+    "Food quality & value for money": 26.0,
+    "Public-space setting (heterogeneous)": 14.0,
+    "Service encounter & staff": 41.0,
+    "n": 100
+   },
+   "2": {
+    "Beach conditions & crowding": 16.9,
+    "Food quality & value for money": 21.1,
+    "Public-space setting (heterogeneous)": 18.3,
+    "Service encounter & staff": 43.7,
+    "n": 71
+   },
+   "3": {
+    "Beach conditions & crowding": 22.6,
+    "Food quality & value for money": 30.8,
+    "Public-space setting (heterogeneous)": 22.6,
+    "Service encounter & staff": 24.0,
+    "n": 146
+   }
+  },
+  "chi2_star_x_topic": {
+   "chi2": 12.693045901651637,
+   "dof": 6,
+   "p": 0.04817779295845241
+  },
+  "reweighted_with_stratum_bootstrap_CI": {
+   "Beach conditions & crowding": {
+    "unweighted": 20.4,
+    "reweighted": 22.7,
+    "rw_lo": 19.0,
+    "rw_hi": 26.6
+   },
+   "Food quality & value for money": {
+    "unweighted": 27.0,
+    "reweighted": 26.4,
+    "rw_lo": 21.9,
+    "rw_hi": 30.9
+   },
+   "Public-space setting (heterogeneous)": {
+    "unweighted": 18.8,
+    "reweighted": 24.8,
+    "rw_lo": 20.1,
+    "rw_hi": 29.6
+   },
+   "Service encounter & staff": {
+    "unweighted": 33.9,
+    "reweighted": 26.2,
+    "rw_lo": 22.2,
+    "rw_hi": 30.6
+   }
+  }
+ },
+ "e_review_length": {
+  "above_stratum_median": {
+   "shares_pct": {
+    "false": {
+     "Beach conditions & crowding": 22.5,
+     "Food quality & value for money": 31.8,
+     "Public-space setting (heterogeneous)": 16.8,
+     "Service encounter & staff": 28.9
+    },
+    "true": {
+     "Beach conditions & crowding": 17.8,
+     "Food quality & value for money": 21.2,
+     "Public-space setting (heterogeneous)": 21.2,
+     "Service encounter & staff": 39.7
+    }
+   },
+   "n": {
+    "false": 173,
+    "true": 146
+   },
+   "chi2": 7.727022408673582,
+   "dof": 3,
+   "p": 0.05200342458894909
+  },
+  "top_quartile": {
+   "shares_pct": {
+    "false": {
+     "Beach conditions & crowding": 23.0,
+     "Food quality & value for money": 31.8,
+     "Public-space setting (heterogeneous)": 18.0,
+     "Service encounter & staff": 27.2
+    },
+    "true": {
+     "Beach conditions & crowding": 12.5,
+     "Food quality & value for money": 12.5,
+     "Public-space setting (heterogeneous)": 21.2,
+     "Service encounter & staff": 53.8
+    }
+   },
+   "n": {
+    "false": 239,
+    "true": 80
+   },
+   "chi2": 24.352351188669296,
+   "dof": 3,
+   "p": 2.1086803136442772e-05
+  },
+  "word_count_quartiles_all_reviews": {
+   "0.0": 6.0,
+   "0.25": 28.0,
+   "0.5": 44.0,
+   "0.75": 74.75,
+   "1.0": 345.0
+  }
+ }
+}
