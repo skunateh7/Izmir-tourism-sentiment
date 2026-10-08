@@ -10,7 +10,7 @@ setup("Neutral class & labels", "🔍")
 st.title("Why the Neutral class is hard")
 st.markdown("Labels were derived from star ratings (1–2 = Negative, 3 = Neutral, 4–5 = Positive). Every model found "
             "Neutral reviews hardest. A blind label audit and an error analysis show that this is largely a "
-            "**measurement** problem: many 3-star reviews describe mixed experiences or read as clearly negative or positive.")
+            "**measurement** problem: many 3-star reviews do not read as neutral when judged from the text alone.")
 
 st.header("Blind label audit")
 L = js("label_audit", "label_agreement_main_vs_overrides.json")
@@ -59,19 +59,26 @@ st.plotly_chart(layout(fig, 620), width="stretch")
 st.caption("Three-star reviews are misclassified three times as often as others, and contrast markers roughly double "
            "the error rate, even for DistilBERT.")
 
-S = js("errors", "error_summary.json")
-st.subheader("Qualitative error taxonomy (50 DistilBERT errors)")
-cnt = pd.Series(S["coded_taxonomy_counts"]).sort_values()
-LAB = {"rating_text_mismatch": "Rating–text mismatch", "non_standard_language": "Non-standard language",
-       "sarcasm_irony": "Sarcasm or irony", "negation_or_contrast": "Negation or contrast"}
-lab = {k: LAB.get(k, k.replace("_", " ").capitalize()) for k in cnt.index}
-fig = go.Figure(go.Bar(x=cnt.values, y=[lab[k] for k in cnt.index], orientation="h", marker_color="#e87ba4",
-                       text=cnt.values, textposition="outside",
-                       hovertext=[S["taxonomy"].get(k, "") for k in cnt.index], hoverinfo="text"))
+st.subheader("Qualitative error coding (50 DistilBERT errors, two coders)")
+C = csv("errors", "second_coder_codes.csv")
+A2 = js("errors", "second_coder_agreement.json")["primary_agreement"]
+LAB = {"mixed_sentiment": "Mixed sentiment", "rating_text_mismatch": "Rating–text mismatch",
+       "negation_or_contrast": "Negation or contrast", "neutral_boundary": "Weak polarity",
+       "non_standard_language": "Non-standard language", "implicit_sentiment": "Implicit sentiment",
+       "sarcasm_irony": "Sarcasm or irony", "short_or_uninformative": "Short or uninformative"}
+cats = list(LAB)
+fig = go.Figure()
+for col, name, color in [("Final_primary", "Author", "#e87ba4"), ("c2", "Second coder (blind)", "#4a3aa7")]:
+    v = C[col].value_counts().reindex(cats).fillna(0)
+    fig.add_bar(y=[LAB[c] for c in cats], x=v.values, name=name, orientation="h", marker_color=color,
+                text=v.astype(int).values, textposition="outside")
+fig.update_layout(barmode="group"); fig.update_yaxes(autorange="reversed")
 fig.update_xaxes(title="Primary cause (number of errors)")
-st.plotly_chart(layout(fig, 300), width="stretch")
-st.caption("Provisional categories were proposed with AI assistance and reviewed by the author against the full texts "
-           "(45 of 50 retained, five recoded); no inter-rater reliability is claimed.")
+st.plotly_chart(layout(fig, 420), width="stretch")
+st.caption(f"Agreement on the primary cause was only fair: {A2['agree']} of {A2['n']} ({A2['pct']:.0f}%), Cohen's κ = "
+           f"{A2['kappa']:.2f} (95% CI {A2['ci'][0]:.2f}–{A2['ci'][1]:.2f}). The categories overlap (mixed sentiment vs "
+           "contrast), so the counts are exploratory. The author's codes started from AI-proposed provisional categories; "
+           "the second coder worked blind and without AI tools.")
 
 with st.expander("Ablation (Supplementary Table S3)"):
     A = csv("ablation", "ablation.csv")
@@ -82,4 +89,4 @@ with st.expander("Ablation (Supplementary Table S3)"):
         "Test F1 Neutral": A.test_f1_Neutral.map("{:.3f}".format)}), hide_index=True, width="stretch",
         height=35 * (len(A) + 1) + 3)
 source("label_audit/label_agreement_main_vs_overrides.json", "errors/error_rates_by_factor.csv",
-       "errors/error_summary.json", "ablation/ablation.csv")
+       "errors/second_coder_codes.csv", "ablation/ablation.csv")

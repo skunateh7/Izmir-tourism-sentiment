@@ -18,7 +18,7 @@ RES = os.path.join(ROOT, "results")
 sys.path.insert(0, ROOT)
 
 TITLE = ("From Tourist Reviews to Destination Intelligence: Pretraining, "
-         "Cross-Entity Generalisation and Mixed Sentiment in İzmir")
+         "Cross-Entity Generalisation and Rating–Text Disagreement in İzmir")
 LABELS = ["Negative", "Neutral", "Positive"]
 SENT = {"Negative": "#e34948", "Neutral": "#b9b8b2", "Positive": "#2a78d6"}
 MODEL_C = {"VADER-std": "#f2a07a", "VADER": "#eb6834", "TFIDF-LR": "#1baf7a", "TFIDF-SVM": "#008300",

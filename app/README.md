@@ -1,7 +1,7 @@
 # Streamlit companion app
 
 An interactive companion to the manuscript *From Tourist Reviews to Destination Intelligence: Pretraining,
-Cross-Entity Generalisation and Mixed Sentiment in İzmir*. Every number and chart is read from the study's
+Cross-Entity Generalisation and Rating–Text Disagreement in İzmir*. Every number and chart is read from the study's
 `results/` folder, so the app always agrees with the paper. It contains no review texts.
 
 | Page | Content |

@@ -7,10 +7,11 @@ import streamlit as st
 from lib import SENT, cat, ent, csv, js, layout, setup, source, stacked_sentiment, wilson
 
 setup("Destination sentiment", "🗺️")
-st.title("Destination-level sentiment (RQ3)")
+st.title("Destination-level ratings and sentiment (RQ3)")
 st.markdown("Reviews were collected with TripAdvisor's rating filters so that all three classes were represented, "
             "which over-represents negative reviews. Destination-level sentiment is therefore computed from each "
-            "entity's **full TripAdvisor rating histogram** (all languages), mapped to sentiment with the same rule.")
+            "entity's **full TripAdvisor rating histogram** (all languages), mapped to sentiment classes with the same rule. "
+            "These shares describe **ratings**; the expander below gives an audit-based estimate for review text.")
 
 P = js("population", "population_results.json")
 pop, smp = P["population_overall_pct"], P["sample_overall_pct"]
@@ -20,6 +21,21 @@ c[1].metric("Positive", f"{pop['Positive']:.1f}%")
 c[2].metric("Negative", f"{pop['Negative']:.1f}%",
             delta=f"{smp['Negative']:.1f}% in the collected sample", delta_color="off")
 c[3].metric("Negative over-representation", f"{smp['Negative'] / pop['Negative']:.1f}×")
+
+with st.expander("Estimated sentiment of review text (audit-based)"):
+    TE = csv("review2", "text_based_population_estimates.csv")
+    TE = TE[(TE.level != "Attraction")].copy()
+    TE["Unit"] = [("All entities" if l == "Overall" else cat(u)) for l, u in zip(TE.level, TE.unit)]
+    TE["Audit labels"] = TE.label_source.map({"A": "Annotator A", "B": "Annotator B (author)", "agreed": "Agreed only"})
+    for k in ["Positive", "Neutral", "Negative"]:
+        TE[f"Text {k} % [95% CI]"] = [f"{v:.1f} [{a:.1f}, {b:.1f}]" for v, a, b in zip(TE[f"text_{k}"], TE[f"text_{k}_lo"], TE[f"text_{k}_hi"])]
+    TE["Ratings Pos / Neu / Neg %"] = [f"{a:.1f} / {b:.1f} / {c:.1f}" for a, b, c in zip(TE.rating_Positive, TE.rating_Neutral, TE.rating_Negative)]
+    st.dataframe(TE[["Unit", "Audit labels", "Ratings Pos / Neu / Neg %", "Text Positive % [95% CI]", "Text Neutral % [95% CI]",
+                     "Text Negative % [95% CI]"]], hide_index=True, width="stretch")
+    st.caption("The label audit's rates of positive, neutral and negative text within each rating group are applied to each "
+               "histogram (bootstrap over the 141 audited reviews). The positive share barely changes; the negative share "
+               "rises because most 3-star texts read as negative or positive. Assumes the rating–text relation is the same "
+               "across entities.")
 
 st.header("By category")
 C = csv("population", "population_sentiment_by_category.csv").sort_values("net_pop", ascending=False)
@@ -58,7 +74,8 @@ fig.update_yaxes(autorange="reversed")
 st.plotly_chart(layout(fig, 120 + 34 * len(A)), width="stretch")
 st.caption(f"The ranking of entities is broadly preserved between sample and all ratings "
            f"(Spearman ρ = {P['rank_correlation_net_sentiment_sample_vs_population']:.2f} for net sentiment), "
-           "but the sample's negative shares are far too high. Small venues (e.g. Bios Bar, N = 24) have wide intervals.")
+           "but the sample's negative shares are far too high, and this agreement concerns ratings only, not how often each "
+           "complaint theme occurs. Small venues (e.g. Bios Bar, N = 24) have wide intervals.")
 show = A[["Attraction_Name", "Category", "N_pop", "pop_pos", "pop_neu", "pop_neg", "n_sample", "sample_neg"]].copy()
 show["Category"] = show.Category.map(cat)
 show["Attraction_Name"] = show.Attraction_Name.map(ent)

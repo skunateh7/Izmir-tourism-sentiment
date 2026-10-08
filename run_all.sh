@@ -11,5 +11,8 @@ python scripts/08_ablation.py
 python scripts/09_error_analysis.py
 python scripts/10_tourism_and_topics.py
 python scripts/12_population_reweighting.py
+python scripts/14_nested_cv_tfidf.py
+python scripts/15_reviewer_sensitivity.py
+python scripts/16_equivalence_and_clusters.py
 (cd scripts && python 11_figures_tables.py)
 echo "All results regenerated in results/"

@@ -179,7 +179,7 @@ fig, ax = plt.subplots(2, 1, figsize=(7.6, 7.4), gridspec_kw={"height_ratios": [
 ax[0].plot(coh.k, coh.c_v, "-o", color=MODEL_C["CNN"], lw=2, ms=5, mec="white")
 kb = T["selected_k"]
 ax[0].plot(kb, coh.set_index("k").c_v[kb], "o", ms=10, mfc="none", mec=INK, mew=1.5)
-ax[0].set_xlabel("Number of topics k"); ax[0].set_ylabel("Mean c_v coherence")
+ax[0].set_xlabel("Number of topics $k$"); ax[0].set_ylabel("Mean $c_v$ coherence")
 ax[0].set_title("a", loc="left", fontweight="bold")
 tl = [labels.get(str(t), f"T{t}") for t in range(kb)]
 im = ax[1].imshow(tb.values, cmap="Blues", vmin=0, vmax=100, aspect="auto")

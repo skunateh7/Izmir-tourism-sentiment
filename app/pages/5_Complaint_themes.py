@@ -46,7 +46,26 @@ with st.expander("Choosing the number of topics"):
                     marker=dict(size=18, symbol="circle-open", color="black", line=dict(width=2)), showlegend=False)
     fig.update_xaxes(title="Number of topics k", dtick=1); fig.update_yaxes(title="Mean c_v coherence")
     st.plotly_chart(layout(fig, 300, showlegend=False), width="stretch")
-    st.caption("k = 4 had the highest coherence, but the curve is nearly flat for k = 3, 6 and 10, so the four themes "
-               "are best read as a descriptive map of complaint areas rather than a definitive taxonomy.")
-source("tourism/tourism_results.json", "tourism/topic_by_category_pct.csv",
+    st.caption("Coherence is nearly flat across k, so it does not pick the number of topics on its own. k = 4 was kept "
+               "because it gave the most stable solution across 20 random initialisations (table below).")
+    ST = csv("review2", "topic_stability.csv")
+    st.dataframe(pd.DataFrame({"k": ST.k, "Pairwise ARI (mean)": ST.pairwise_ari_mean.map(lambda v: f"{v:.2f}"),
+                               "Matched cosine vs reported (mean)": ST.matched_cosine_vs_reference_mean.map(lambda v: f"{v:.2f}"),
+                               "c_v over 20 inits (mean)": ST.c_v_mean.map(lambda v: f"{v:.3f}")}), hide_index=True, width="stretch")
+
+with st.expander("Robustness: Negative reviews only, star rating and review length"):
+    R2 = js("review2", "review2_results.json")
+    b = R2["b_negative_only"]
+    st.dataframe(pd.DataFrame(b["main_topic_shares_pct"]).T.loc[order].rename_axis("Topic").reset_index(),
+                 hide_index=True, width="stretch")
+    st.markdown("Refitting four topics on the 177 Negative reviews alone: " + "; ".join(
+        f"**{x['main_topic']}** → cosine {x['cosine_with_main']:.2f} ({', '.join(x['top_terms_negative_only'][:5])})"
+        for x in b["refit_k4_negative_only"]))
+    L = R2["e_review_length"]["top_quartile"]["shares_pct"]
+    st.caption(f"Service-encounter and food-quality themes recur on Negative reviews alone; beach complaints merge into a "
+               f"broader outdoor topic and an accommodation topic appears. The service-encounter theme is more common in "
+               f"the longest quarter of reviews ({L['true']['Service encounter & staff']:.0f}% vs "
+               f"{L['false']['Service encounter & staff']:.0f}%), so skipping very long reviews during collection is more "
+               f"likely to understate it than inflate it.")
+source("tourism/tourism_results.json", "tourism/topic_by_category_pct.csv", "review2/review2_results.json",
        "population/topic_prevalence_reweighted_by_category.csv", "population/topic_prevalence_overall.csv")

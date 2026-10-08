@@ -1,7 +1,7 @@
 # İzmir tourist-review sentiment: code, results and Streamlit app
 
 Code, results and interactive app for the manuscript
-**"From Tourist Reviews to Destination Intelligence: Pretraining, Cross-Entity Generalisation and Mixed Sentiment
+**"From Tourist Reviews to Destination Intelligence: Pretraining, Cross-Entity Generalisation and Rating–Text Disagreement
 in İzmir"** (under review). Every table and figure in the paper is produced by the scripts in this repository,
 and the app reads the same result files.
 
@@ -23,7 +23,7 @@ See [`app/README.md`](app/README.md) for deployment and for adding the fine-tune
 ## Study in brief
 
 * 598 English TripAdvisor reviews of 14 tourism entities in İzmir Province (six categories), collected in
-  September 2026, plus each entity's full rating histogram (13,209 ratings).
+  August 2026, plus each entity's full rating histogram (13,209 ratings).
 * Six approaches: VADER, TF-IDF + logistic regression, TF-IDF + linear SVM, multi-kernel CNN, BiLSTM and fine-tuned
   DistilBERT, compared with validation-only model selection, five seeds, bootstrap confidence intervals,
   McNemar tests, pooled random 5-fold and leave-one-entity-out cross-validation.
@@ -37,7 +37,7 @@ See [`app/README.md`](app/README.md) for deployment and for adding the fine-tune
 app/                 Streamlit app (reads results/; no review texts)
 data/processed/      reviews_metadata.csv (IDs, entity, category, stars, labels - no texts), split_main.json
 data/raw/            TripAdvisor_rating_counts.xlsx (full rating histograms)
-scripts/             numbered pipeline 01-13
+scripts/             numbered pipeline 01-16
 src/                 preprocessing, models, metrics
 results/             all outputs; results/paper/ = manuscript figures and tables
 ```
@@ -57,6 +57,7 @@ pip install -r requirements.txt
 bash run_all.sh                              # CPU steps (about 1.5 h)
 python scripts/05_transformer_distilbert.py  # DistilBERT (GPU / Google Colab)
 python scripts/05b_transformer_cv.py         # DistilBERT cross-validation (GPU)
+python scripts/05c_distilbert_config_cv.py   # all four DistilBERT configurations + nested selection (GPU; then --summarise)
 ```
 
 ## Licence

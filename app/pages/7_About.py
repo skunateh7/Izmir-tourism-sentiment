@@ -12,7 +12,7 @@ st.markdown(f"""
 ### Data
 * 598 English-language TripAdvisor reviews (including TripAdvisor's English machine translations) of 14 tourism
   entities in İzmir Province, Turkey, in six categories: Accommodation, Beach/Coastal, Food/Gastronomy,
-  History/Culture, Nature and Nightlife. Collected manually in September 2026 using TripAdvisor's rating filters.
+  History/Culture, Nature and Nightlife. Collected manually in August 2026 using TripAdvisor's rating filters.
 * Labels follow the star rating (1–2 Negative, 3 Neutral, 4–5 Positive) with eight documented manual overrides, and
   were checked with a blind two-annotator audit.
 * Each entity's full rating histogram (13,209 ratings, all languages) is used for destination-level results.
