@@ -1,9 +1,12 @@
 # İzmir tourist-review sentiment: code, results and Streamlit app
 
 Code, results and interactive app for the manuscript
-**"From Tourist Reviews to Destination Intelligence: Pretraining, Cross-Entity Generalisation and Rating–Text Disagreement
-in İzmir"** (under review). Every table and figure in the paper is produced by the scripts in this repository,
-and the app reads the same result files.
+**"Evaluating Sentiment Measurement Validity in Online Reviews: Evidence from Tourism"** (submitted to the
+*Journal of Computational Social Science*). It extends the earlier analysis of the same corpus,
+"From Tourist Reviews to Destination Intelligence: Pretraining, Cross-Entity Generalisation and Rating–Text
+Disagreement in İzmir". Every table and figure in the paper is produced by the scripts in this repository,
+and the app reads the same result files. The new label-comparison analyses are described in the section
+"JCSS revision" below.
 
 ## Interactive app
 
@@ -63,3 +66,27 @@ python scripts/05c_distilbert_config_cv.py   # all four DistilBERT configuration
 ## Licence
 
 Code is released under the MIT Licence. Result files are provided for verification of the published findings.
+
+## JCSS revision: label comparison and robustness analyses
+
+These files support *Evaluating Sentiment Measurement Validity in Online Reviews: Evidence from Tourism*
+(Journal of Computational Social Science submission). They need **no review texts**.
+
+| File | What it is |
+|---|---|
+| `annotation/audit_labels_blind.csv` | The 150 audit items: review ID, star rating, raw rating-derived label, final label, override flag, and both annotators' blind text-only labels (no texts). `Annotator_A` is the second annotator and `Annotator_B` is the author, as in `results/label_audit/label_agreement_main_vs_overrides.json` |
+| `results/label_comparison/vader_compound_audited.csv` | VADER compound score for each audited review (lets the VADER labels be rebuilt without texts) |
+| `scripts/13_label_comparison.py` | Table 2, Fig. 1 data, Tables S16, S16b and S17 → `results/label_comparison/label_comparison.json` |
+| `scripts/14_topic_cluster_bootstrap.py` | Table S18 (post-stratified complaint-theme share, review- and entity-level bootstrap) |
+| `scripts/15_figure_label_audit.py` | Fig. 1 → `results/paper/figures/fig_label_audit.png/.pdf` |
+
+Run from the repository root:
+
+```
+python scripts/13_label_comparison.py
+python scripts/14_topic_cluster_bootstrap.py
+python scripts/15_figure_label_audit.py
+```
+
+Audit accounting: 150 selected → 1 management reply excluded → 8 manual overrides assessed separately →
+141 main audit reviews (raw and final labels identical) → 121 on which both annotators agree.
