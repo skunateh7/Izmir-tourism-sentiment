@@ -1,0 +1,13 @@
+{
+ "unweighted_share": 60.8,
+ "post_stratified_share": 52.6,
+ "review_level_ci": [
+  45.9,
+  59.6
+ ],
+ "entity_level_ci": [
+  22.5,
+  81.2
+ ],
+ "bootstrap_resamples": 5000
+}
