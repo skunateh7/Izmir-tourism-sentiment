@@ -36,9 +36,7 @@ this app only reads their outputs in `results/`. The classifier page uses TF-IDF
 
 ### Use of AI tools
 Claude (Anthropic; Claude Opus 5.5) assisted with writing and checking the analysis code, the statistical workflow,
-the figures and this app, and proposed provisional error-analysis categories that the author reviewed. ChatGPT
-(OpenAI; GPT-5.6 Sol) was used by the second annotator only to draft notes on labels already assigned, and by the
-author for feedback on manuscript drafts. No AI tool assigned any sentiment label; the author verified all results.
+the figures and this app. No AI tool assigned any sentiment label; the author verified all results.
 
 ### Citation
 If you use this work, please cite the article once published (citation details will be added here).
